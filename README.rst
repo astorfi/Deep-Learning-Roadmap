@@ -246,6 +246,12 @@ Optimization
 
   .. image:: _img/mainpage/progress-overall-100.png
 
+* **Large Scale Distributed Deep Networks** :
+  [`Paper <http://papers.nips.cc/paper/4687-large-scale-distributed-deep-networks>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+
   .. @article{mikolov2013efficient,
   ..   title={Efficient estimation of word representations in vector space},
   ..   author={Mikolov, Tomas and Chen, Kai and Corrado, Greg and Dean, Jeffrey},
