@@ -122,18 +122,18 @@ Recurrent Networks
   .. image:: _img/mainpage/progress-overall-80.png
 
 * **LSTM: A search space odyssey** :
-  [`Paper <https://ieeexplore.ieee.org/abstract/document/7508408/`_]
+  [`Paper <https://ieeexplore.ieee.org/abstract/document/7508408/>`_]
 
   .. image:: _img/mainpage/progress-overall-80.png
 
 
 * **On the difficulty of training recurrent neural networks** :
-  [`Paper <http://proceedings.mlr.press/v28/pascanu13.pdf`_]
+  [`Paper <http://proceedings.mlr.press/v28/pascanu13.pdf>`_]
 
   .. image:: _img/mainpage/progress-overall-100.png
 
 * **Learning to forget: Continual prediction with LSTM** :
-  [`Paper <http://digital-library.theiet.org/content/conferences/10.1049/cp_19991218`_]
+  [`Paper <http://digital-library.theiet.org/content/conferences/10.1049/cp_19991218>`_]
 
   .. image:: _img/mainpage/progress-overall-100.png
 
