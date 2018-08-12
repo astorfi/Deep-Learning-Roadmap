@@ -192,31 +192,29 @@ Generative Models
 
   .. image:: _img/mainpage/progress-overall-100.png
 
------------------------
-Linear Factor Models
------------------------
-
-* **Character-level convolutional networks for text classification** :
-  Promising results by the use of one-hot encoding possibly due to their character-level information.
-  [`Paper link <http://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classifica>`_ ,
-  `Torch implementation <https://github.com/zhangxiangxiao/Crepe>`_ ,
-  `TensorFlow implementation <https://github.com/mhjabreel/CharCNN>`_ ,
-  `Pytorch implementation <https://github.com/srviest/char-cnn-pytorch>`_]
-
-  .. image:: _img/mainpage/progress-overall-80.png
 
 -----------------------
 Probabilistic Models
 -----------------------
 
-* **Character-level convolutional networks for text classification** :
-  Promising results by the use of one-hot encoding possibly due to their character-level information.
-  [`Paper link <http://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classifica>`_ ,
-  `Torch implementation <https://github.com/zhangxiangxiao/Crepe>`_ ,
-  `TensorFlow implementation <https://github.com/mhjabreel/CharCNN>`_ ,
-  `Pytorch implementation <https://github.com/srviest/char-cnn-pytorch>`_]
+* **Stochastic Backpropagation and Approximate Inference in Deep Generative Models** :
+  [`Paper <https://arxiv.org/abs/1401.4082>`_]
 
   .. image:: _img/mainpage/progress-overall-80.png
+
+* **Probabilistic models of cognition: exploring representations and inductive biases** :
+  [`Paper <https://www.sciencedirect.com/science/article/pii/S1364661310001129>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **On deep generative models with applications to recognition** :
+  [`Paper <https://ieeexplore.ieee.org/abstract/document/5995710/>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+
+
+
 
 ====================
 Core
