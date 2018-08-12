@@ -325,9 +325,6 @@ Reinforcement Learning
   .. image:: _img/mainpage/progress-overall-60.png
 
 
-
-
-
 ====================
 Applications
 ====================
@@ -336,12 +333,96 @@ Applications
 Image Recognition
 --------------------
 
+* **Deep Residual Learning for Image Recognition** :
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **Very Deep Convolutional Networks for Large-Scale Image Recognition** :
+[`Paper <https://arxiv.org/abs/1409.1556>`_]
+
+.. image:: _img/mainpage/progress-overall-100.png
+
+* **Multi-column Deep Neural Networks for Image Classification** :
+  [`Paper <https://arxiv.org/abs/1202.2745>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **DeepID3: Face Recognition with Very Deep Neural Networks** :
+  [`Paper <https://arxiv.org/abs/1502.00873>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps** :
+  [`Paper <https://arxiv.org/abs/1312.6034>`_]
+
+  .. image:: _img/mainpage/progress-overall-60.png
+
+* **Deep Image: Scaling up Image Recognition** :
+  [`Paper <https://arxiv.org/vc/arxiv/papers/1501/1501.02876v1.pdf>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **Long-Term Recurrent Convolutional Networks for Visual Recognition and Description** :
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Donahue_Long-Term_Recurrent_Convolutional_2015_CVPR_paper.html>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+--------------------
+Object Recognition
+--------------------
+
+* **ImageNet Classification with Deep Convolutional Neural Networks** :
+  [`Paper <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **Learning Deep Features for Scene Recognition using Places Database** :
+  [`Paper <http://papers.nips.cc/paper/5349-learning-deep-features>`_]
+
+  .. image:: _img/mainpage/progress-overall-60.png
+
+* **Scalable Object Detection using Deep Neural Networks** :
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Erhan_Scalable_Object_Detection_2014_CVPR_paper.html`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks** :
+  [`Paper <http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks** :
+  [`Paper <https://arxiv.org/abs/1312.6229>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **CNN Features Off-the-Shelf: An Astounding Baseline for Recognition** :
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W15/html/Razavian_CNN_Features_Off-the-Shelf_2014_CVPR_paper.html>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **What is the best multi-stage architecture for object recognition?** :
+  [`Paper <https://ieeexplore.ieee.org/abstract/document/5459469/>`_]
+
+  .. image:: _img/mainpage/progress-overall-60.png
+
+
+--------------------
+Action Recognition
+--------------------
+
+----------------------------
+Caption Generation
+----------------------------
+
 * **Efficient Estimation of Word Representations in Vector Space** :
   Two novel model architectures for computing continuous vector representations of words.
   [`Paper link <https://arxiv.org/abs/1301.3781>`_ ,
   `Official code implementation <https://code.google.com/archive/p/word2vec/>`_]
 
   .. image:: _img/mainpage/progress-overall-100.png
+
 
 ----------------------------
 Natural Language Processing
@@ -366,16 +447,7 @@ Speech
 
   .. image:: _img/mainpage/progress-overall-100.png
 
-----------------------------
-Caption Generation
-----------------------------
 
-* **Efficient Estimation of Word Representations in Vector Space** :
-  Two novel model architectures for computing continuous vector representations of words.
-  [`Paper link <https://arxiv.org/abs/1301.3781>`_ ,
-  `Official code implementation <https://code.google.com/archive/p/word2vec/>`_]
-
-  .. image:: _img/mainpage/progress-overall-100.png
 
 
 
