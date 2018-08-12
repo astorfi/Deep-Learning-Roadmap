@@ -251,26 +251,24 @@ Optimization
 
   .. image:: _img/mainpage/progress-overall-100.png
 
-
-  .. @article{mikolov2013efficient,
-  ..   title={Efficient estimation of word representations in vector space},
-  ..   author={Mikolov, Tomas and Chen, Kai and Corrado, Greg and Dean, Jeffrey},
-  ..   journal={arXiv preprint arXiv:1301.3781},
-  ..   year={2013}
-  .. }
-
-.. ################################################################################
-
 ------------------------
 Representation Learning
 ------------------------
 
-* **Efficient Estimation of Word Representations in Vector Space** :
-  Two novel model architectures for computing continuous vector representations of words.
-  [`Paper link <https://arxiv.org/abs/1301.3781>`_ ,
-  `Official code implementation <https://code.google.com/archive/p/word2vec/>`_]
+* **Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks** :
+  [`Paper <https://arxiv.org/abs/1511.06434>`_]
 
   .. image:: _img/mainpage/progress-overall-100.png
+
+* **Representation Learning: A Review and New Perspectives** :
+  [`Paper <https://ieeexplore.ieee.org/abstract/document/6472238/>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets** :
+  [`Paper <http://papers.nips.cc/paper/6399-infogan-interpretable-representation>`_]
+
+  .. image:: _img/mainpage/progress-overall-60.png
 
 
 ---------------------
