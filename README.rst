@@ -79,7 +79,7 @@ Convolutional Networks
 
 .. For continuous lines, the lines must be start from the same locations.
 * **Imagenet classification with deep convolutional neural networks** :
-  [`Paper link <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks>`_]
+  [`Paper <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks>`_]
 
   .. image:: _img/mainpage/progress-overall-100.png
 
