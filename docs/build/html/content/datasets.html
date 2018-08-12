@@ -1,0 +1,303 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Datasets &mdash; Deep-Learning-NLP 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Contributing" href="../credentials/CONTRIBUTING.html" />
+    <link rel="prev" title="Tutorials" href="tutorials.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Foreword</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro/intro.html">Introduction</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="papers.html">Papers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="courses.html">Courses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="books.html">Books</a></li>
+<li class="toctree-l1"><a class="reference internal" href="blogs.html">Blogs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">Tutorials</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Datasets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#general">General</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#text-classification">Text classification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#question-answering">Question Answering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sentiment-analysis">Sentiment Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#machine-translation">Machine Translation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#summarization">Summarization</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Document Credentials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../credentials/CONTRIBUTING.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../credentials/CODE_OF_CONDUCT.html">Contributor Covenant Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../credentials/LICENSE.html">LICENSE</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Deep-Learning-NLP</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Datasets</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com///blob/content/datasets.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="datasets">
+<h1>Datasets<a class="headerlink" href="#datasets" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="general">
+<h2>General<a class="headerlink" href="#general" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><strong>1 Billion Word Language Model Benchmark</strong>: The purpose of the project is to make available a standard training and test setup for language modeling experiments:
+[<a class="reference external" href="http://www.statmt.org/lm-benchmark/">Link</a>]</li>
+<li><strong>Common Crawl</strong>: The Common Crawl corpus contains petabytes of data collected over the last 7 years. It contains raw web page data, extracted metadata and text extractions:
+[<a class="reference external" href="http://commoncrawl.org/the-data/get-started/">Link</a>]</li>
+<li><strong>Yelp Open Dataset</strong>: A subset of Yelp’s businesses, reviews, and user data for use in personal, educational, and academic purposes:
+[<a class="reference external" href="https://www.yelp.com/dataset">Link</a>]</li>
+</ul>
+</div>
+<div class="section" id="text-classification">
+<h2>Text classification<a class="headerlink" href="#text-classification" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><strong>20 newsgroups</strong> The 20 Newsgroups data set is a collection of approximately 20,000 newsgroup documents, partitioned (nearly) evenly across 20 different newsgroups:
+[<a class="reference external" href="http://qwone.com/~jason/20Newsgroups/">Link</a>]</li>
+<li><strong>Broadcast News</strong> The 1996 Broadcast News Speech Corpus contains a total of 104 hours of broadcasts from ABC, CNN and CSPAN television networks and NPR and PRI radio networks with corresponding transcripts:
+[<a class="reference external" href="https://catalog.ldc.upenn.edu/LDC97S44">Link</a>]</li>
+<li><strong>The wikitext long term dependency language modeling dataset</strong>: A collection of over 100 million tokens extracted from the set of verified Good and Featured articles on Wikipedia. :
+[<a class="reference external" href="https://einstein.ai/research/the-wikitext-long-term-dependency-language-modeling-dataset">Link</a>]</li>
+</ul>
+</div>
+<div class="section" id="question-answering">
+<h2>Question Answering<a class="headerlink" href="#question-answering" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><strong>Question Answering Corpus</strong> by Deep Mind and Oxford which is two new corpora of roughly a million news stories with associated queries from the CNN and Daily Mail websites.
+[<a class="reference external" href="https://github.com/deepmind/rc-data">Link</a>]</li>
+<li><strong>Stanford Question Answering Dataset (SQuAD)</strong> consisting of questions posed by crowdworkers on a set of Wikipedia articles:
+[<a class="reference external" href="https://rajpurkar.github.io/SQuAD-explorer/">Link</a>]</li>
+<li><strong>Amazon question/answer data</strong> contains Question and Answer data from Amazon, totaling around 1.4 million answered questions:
+[<a class="reference external" href="http://jmcauley.ucsd.edu/data/amazon/qa/">Link</a>]</li>
+</ul>
+</div>
+<div class="section" id="sentiment-analysis">
+<h2>Sentiment Analysis<a class="headerlink" href="#sentiment-analysis" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><strong>Multi-Domain Sentiment Dataset</strong> TThe Multi-Domain Sentiment Dataset contains product reviews taken from Amazon.com from many product types (domains):
+[<a class="reference external" href="http://www.cs.jhu.edu/~mdredze/datasets/sentiment/">Link</a>]</li>
+<li><strong>Stanford Sentiment Treebank Dataset</strong> The Stanford Sentiment Treebank is the first corpus with fully labeled parse trees that allows for a complete analysis of the compositional effects of sentiment in language:
+[<a class="reference external" href="https://nlp.stanford.edu/sentiment/">Link</a>]</li>
+<li><strong>Large Movie Review Dataset</strong>: This is a dataset for binary sentiment classification:
+[<a class="reference external" href="http://ai.stanford.edu/~amaas/data/sentiment/">Link</a>]</li>
+</ul>
+</div>
+<div class="section" id="machine-translation">
+<h2>Machine Translation<a class="headerlink" href="#machine-translation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><strong>Aligned Hansards of the 36th Parliament of Canada</strong> dataset contains 1.3 million pairs of aligned text chunks:
+[<a class="reference external" href="https://www.isi.edu/natural-language/download/hansard/">Link</a>]</li>
+<li><strong>Europarl: A Parallel Corpus for Statistical Machine Translation</strong> dataset extracted from the proceedings of the European Parliament:
+[<a class="reference external" href="http://www.statmt.org/europarl/">Link</a>]</li>
+</ul>
+</div>
+<div class="section" id="summarization">
+<h2>Summarization<a class="headerlink" href="#summarization" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><strong>Legal Case Reports Data Set</strong> as a textual corpus of 4000 legal cases for automatic summarization and citation analysis.:
+[<a class="reference external" href="https://archive.ics.uci.edu/ml/datasets/Legal+Case+Reports">Link</a>]</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../credentials/CONTRIBUTING.html" class="btn btn-neutral float-right" title="Contributing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="tutorials.html" class="btn btn-neutral" title="Tutorials" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Amirsina Torfi.
+      Last updated on True.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            LANGUAGE:'en',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

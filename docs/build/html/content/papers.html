@@ -1,0 +1,743 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Papers &mdash; Deep-Learning-NLP 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Courses" href="courses.html" />
+    <link rel="prev" title="Introduction" href="../intro/intro.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Foreword</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro/intro.html">Introduction</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Content</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Papers</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#data-representation">Data Representation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#one-hot-representation">One-hot representation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#continuous-bag-of-words-cbow">Continuous Bag of Words (CBOW)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#word-level-embedding">Word-Level Embedding</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#character-level-embedding">Character-Level Embedding</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#applications">Applications</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#part-of-speech-tagging">Part-Of-Speech Tagging</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#parsing">Parsing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#named-entity-recognition">Named Entity Recognition</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#semantic-role-labeling">Semantic Role Labeling</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#text-classification">Text classification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sentiment-analysis">Sentiment Analysis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#machine-translation">Machine Translation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#summarization">Summarization</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#question-answering">Question Answering</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="courses.html">Courses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="books.html">Books</a></li>
+<li class="toctree-l1"><a class="reference internal" href="blogs.html">Blogs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tutorials.html">Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datasets.html">Datasets</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Document Credentials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../credentials/CONTRIBUTING.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../credentials/CODE_OF_CONDUCT.html">Contributor Covenant Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../credentials/LICENSE.html">LICENSE</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Deep-Learning-NLP</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Papers</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com///blob/content/papers.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="papers">
+<h1>Papers<a class="headerlink" href="#papers" title="Permalink to this headline">¶</a></h1>
+<img alt="../_images/article.jpeg" src="../_images/article.jpeg" />
+<p>This chapter is associated with the papers published in NLP using deep learning.</p>
+<div class="section" id="data-representation">
+<h2>Data Representation<a class="headerlink" href="#data-representation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="one-hot-representation">
+<h3>One-hot representation<a class="headerlink" href="#one-hot-representation" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>Character-level convolutional networks for text classification</strong> :
+Promising results by the use of one-hot encoding possibly due to their character-level information.
+[<a class="reference external" href="http://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classifica">Paper link</a> ,
+<a class="reference external" href="https://github.com/zhangxiangxiao/Crepe">Torch implementation</a> ,
+<a class="reference external" href="https://github.com/mhjabreel/CharCNN">TensorFlow implementation</a> ,
+<a class="reference external" href="https://github.com/srviest/char-cnn-pytorch">Pytorch implementation</a>]</p>
+<img alt="../_images/progress-overall-80.png" src="../_images/progress-overall-80.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>Effective Use of Word Order for Text Categorization with Convolutional Neural Networks</strong> :
+Exploiting the 1D structure (namely, word order) of text data for prediction.
+[<a class="reference external" href="https://arxiv.org/abs/1412.1058">Paper link</a> ,
+<a class="reference external" href="https://github.com/riejohnson/ConText">Code implementation</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>Neural Responding Machine for Short-Text Conversation</strong> :
+Neural Responding Machine has been proposed to generate content-wise appropriate responses to input text.
+[<a class="reference external" href="https://arxiv.org/abs/1503.02364">Paper link</a> ,
+<a class="reference external" href="https://isaacchanghau.github.io/2017/07/19/Neural-Responding-Machine-for-Short-Text-Conversation/">Paper summary</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+</ul>
+</div>
+<div class="section" id="continuous-bag-of-words-cbow">
+<h3>Continuous Bag of Words (CBOW)<a class="headerlink" href="#continuous-bag-of-words-cbow" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>Distributed Representations of Words and Phrases and their Compositionality</strong> :
+Not necessarily about CBOWs but the techniques represented in this paper
+can be used for training the continuous bag-of-words model.
+[<a class="reference external" href="http://papers.nips.cc/paper/5021-distributed-representations-of-words-andphrases">Paper link</a> ,
+<a class="reference external" href="https://code.google.com/archive/p/word2vec/">Code implementation 1</a>,
+<a class="reference external" href="https://github.com/deborausujono/word2vecpy">Code implementation 2</a>]</p>
+<img alt="../_images/progress-overall-100.png" src="../_images/progress-overall-100.png" />
+</li>
+</ul>
+</div>
+<div class="section" id="word-level-embedding">
+<h3>Word-Level Embedding<a class="headerlink" href="#word-level-embedding" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>Efficient Estimation of Word Representations in Vector Space</strong> :
+Two novel model architectures for computing continuous vector representations of words.
+[<a class="reference external" href="https://arxiv.org/abs/1301.3781">Paper link</a> ,
+<a class="reference external" href="https://code.google.com/archive/p/word2vec/">Official code implementation</a>]</p>
+<img alt="../_images/progress-overall-100.png" src="../_images/progress-overall-100.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>GloVe: Global Vectors for Word Representation</strong> :
+Combines the advantages of the two major models of global matrix
+factorization and local context window methods and efficiently leverages
+the statistical information of the content.
+[<a class="reference external" href="http://www.aclweb.org/anthology/D14-1162">Paper link</a> ,
+<a class="reference external" href="https://github.com/stanfordnlp/GloVe">Official code implementation</a>]</p>
+<img alt="../_images/progress-overall-100.png" src="../_images/progress-overall-100.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>Skip-Thought Vectors</strong> :
+Skip-thought model applies word2vec at the sentence-level.
+[<a class="reference external" href="http://papers.nips.cc/paper/5950-skip-thought-vectors">Paper</a> ,
+<a class="reference external" href="https://github.com/ryankiros/skip-thoughts">Code implementation</a>,
+<a class="reference external" href="https://github.com/tensorflow/models/tree/master/research/skip_thoughts">TensorFlow implementation</a>]</p>
+<img alt="../_images/progress-overall-100.png" src="../_images/progress-overall-100.png" />
+</li>
+</ul>
+</div>
+<div class="section" id="character-level-embedding">
+<h3>Character-Level Embedding<a class="headerlink" href="#character-level-embedding" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>Learning Character-level Representations for Part-of-Speech Tagging</strong> :
+CNNs have successfully been utilized for learning character-level embedding.
+[<a class="reference external" href="http://proceedings.mlr.press/v32/santos14.pdf">Paper link</a> ]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>Deep Convolutional Neural Networks forSentiment Analysis of Short Texts</strong> :
+A new deep convolutional neural network has been proposed for exploiting
+the character- to sentence-level information for sentiment analysis application on short texts.
+[<a class="reference external" href="http://www.aclweb.org/anthology/C14-1008">Paper link</a> ]</p>
+<img alt="../_images/progress-overall-80.png" src="../_images/progress-overall-80.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>Finding Function in Form: Compositional Character Models for Open Vocabulary Word Representation</strong> :
+The usage of two LSTMs operate over the char-
+acters for generating the word embedding
+[<a class="reference external" href="https://arxiv.org/abs/1508.02096">Paper link</a> ]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>Improved Transition-Based Parsing by Modeling Characters instead of Words with LSTMs</strong> :
+The effectiveness of modeling characters for dependency parsing.
+[<a class="reference external" href="https://arxiv.org/abs/1508.00657">Paper link</a> ]</p>
+<img alt="../_images/progress-overall-40.png" src="../_images/progress-overall-40.png" />
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="applications">
+<h2>Applications<a class="headerlink" href="#applications" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="part-of-speech-tagging">
+<h3>Part-Of-Speech Tagging<a class="headerlink" href="#part-of-speech-tagging" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>Learning Character-level Representations for Part-of-Speech Tagging</strong> :
+A deep neural network (DNN) architecture that joins word-level and character-level representations to perform POS taggin
+[<a class="reference external" href="http://proceedings.mlr.press/v32/santos14.pdf">Paper</a>]</p>
+<img alt="../_images/progress-overall-100.png" src="../_images/progress-overall-100.png" />
+</li>
+<li><p class="first"><strong>Bidirectional LSTM-CRF Models for Sequence Tagging</strong> :
+A variety of neural network based models haves been proposed for sequence tagging task.
+[<a class="reference external" href="https://arxiv.org/abs/1508.01991">Paper</a>,
+<a class="reference external" href="https://github.com/Hironsan/anago">Code Implementation 1</a>,
+<a class="reference external" href="https://github.com/UKPLab/emnlp2017-bilstm-cnn-crf">Code Implementation 2</a>]</p>
+<img alt="../_images/progress-overall-80.png" src="../_images/progress-overall-80.png" />
+</li>
+<li><p class="first"><strong>Globally Normalized Transition-Based Neural Networks</strong> :
+Transition-based neural network model for part-of-speech tagging.
+[<a class="reference external" href="https://arxiv.org/abs/1603.06042">Paper</a>]</p>
+<img alt="../_images/progress-overall-80.png" src="../_images/progress-overall-80.png" />
+</li>
+</ul>
+</div>
+<div class="section" id="parsing">
+<h3>Parsing<a class="headerlink" href="#parsing" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>A fast and accurate dependency parser using neural networks</strong> :
+A novel way of learning a neural network classifier for use in a greedy, transition-based dependency parser.
+[<a class="reference external" href="http://www.aclweb.org/anthology/D14-1082">Paper</a>,
+<a class="reference external" href="https://github.com/akjindal53244/dependency_parsing_tf">Code Implementation 1</a>]</p>
+<img alt="../_images/progress-overall-100.png" src="../_images/progress-overall-100.png" />
+</li>
+<li><p class="first"><strong>Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations</strong> :
+A simple and effective scheme for dependency parsing which is based on bidirectional-LSTMs.
+[<a class="reference external" href="https://arxiv.org/abs/1603.04351">Paper</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+<li><p class="first"><strong>Transition-Based Dependency Parsing with Stack Long Short-Term Memory</strong> :
+A technique for learning representations of parser states in transition-based dependency parsers.
+[<a class="reference external" href="https://arxiv.org/abs/1505.08075">Paper</a>]</p>
+<img alt="../_images/progress-overall-80.png" src="../_images/progress-overall-80.png" />
+</li>
+<li><p class="first"><strong>Deep Biaffine Attention for Neural Dependency Parsing</strong> :
+Using neural attention in a simple graph-based dependency parser.
+[<a class="reference external" href="https://arxiv.org/abs/1611.01734">Paper</a>]</p>
+<img alt="../_images/progress-overall-20.png" src="../_images/progress-overall-20.png" />
+</li>
+<li><p class="first"><strong>Joint RNN-Based Greedy Parsing and Word Composition</strong> :
+A greedy parser based on neural networks, which leverages a new compositional sub-tree representation.
+[<a class="reference external" href="https://arxiv.org/abs/1412.7028">Paper</a>]</p>
+<img alt="../_images/progress-overall-20.png" src="../_images/progress-overall-20.png" />
+</li>
+</ul>
+</div>
+<div class="section" id="named-entity-recognition">
+<h3>Named Entity Recognition<a class="headerlink" href="#named-entity-recognition" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>Neural Architectures for Named Entity Recognition</strong> :
+Bidirectional LSTMs and conditional random fields for NER.
+[<a class="reference external" href="https://arxiv.org/abs/1603.01360">Paper</a>]</p>
+<img alt="../_images/progress-overall-100.png" src="../_images/progress-overall-100.png" />
+</li>
+<li><p class="first"><strong>Boosting named entity recognition with neural character embeddings</strong> :
+A language-independent NER system that uses automatically learned features.
+[<a class="reference external" href="https://arxiv.org/abs/1505.05008">Paper</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+<li><p class="first"><strong>Named Entity Recognition with Bidirectional LSTM-CNNs</strong> :
+A novel neural network architecture that automatically detects word- and character-level features.
+[<a class="reference external" href="https://arxiv.org/abs/1511.08308">Paper</a>]</p>
+<img alt="../_images/progress-overall-80.png" src="../_images/progress-overall-80.png" />
+</li>
+</ul>
+</div>
+<div class="section" id="semantic-role-labeling">
+<h3>Semantic Role Labeling<a class="headerlink" href="#semantic-role-labeling" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>End-to-end learning of semantic role labeling using recurrent neural networks</strong> :
+The use of deep bi-directional recurrent network as an end-to-end system for SRL.
+[<a class="reference external" href="http://www.aclweb.org/anthology/P15-1109">Paper</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+</ul>
+</div>
+<div class="section" id="text-classification">
+<h3>Text classification<a class="headerlink" href="#text-classification" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>Convolutional Neural Networks for Sentence Classification</strong> :
+By training the model on top of the pretrained word-vectors through finetuning, considerable improvement has been reported for learning task-specific vectors.
+[<a class="reference external" href="https://arxiv.org/abs/1408.5882">Paper link</a> ,
+<a class="reference external" href="https://github.com/yoonkim/CNN_sentence">Code implementation 1</a>,
+<a class="reference external" href="https://github.com/abhaikollara/CNN-Sentence-Classification">Code implementation 2</a>,
+<a class="reference external" href="https://github.com/Shawn1993/cnn-text-classification-pytorch">Code implementation 3</a>,
+<a class="reference external" href="https://github.com/mangate/ConvNetSent">Code implementation 4</a>]</p>
+<img alt="../_images/progress-overall-100.png" src="../_images/progress-overall-100.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>A Convolutional Neural Network for Modelling Sentences</strong> :
+Dynamic Convolutional Neural Network (DCNN) architecture, which technically is the CNN with a dynamic
+k-max pooling method, has been proposed for capturing the semantic modeling of the sentences.
+[<a class="reference external" href="https://arxiv.org/abs/1404.2188">Paper link</a> ,
+<a class="reference external" href="https://github.com/FredericGodin/DynamicCNN">Code implementation</a>]</p>
+<img alt="../_images/progress-overall-80.png" src="../_images/progress-overall-80.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>Very Deep Convolutional Networks for Text Classification</strong> :
+The Very Deep Convolutional Neural
+Networks (VDCNNs) has been presented and employed at
+character-level with the demonstration of the effectiveness of
+the network depth on classification tasks
+[<a class="reference external" href="http://www.aclweb.org/anthology/E17-1104">Paper link</a> ]</p>
+<img alt="../_images/progress-overall-20.png" src="../_images/progress-overall-20.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>Character-level convolutional networks for text classification</strong> :
+The character-level
+representation using CNNs investigated which argues
+the power of CNNs as well as character-level representation for
+language-agnostic text classification.
+[<a class="reference external" href="http://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classifica">Paper link</a> ,
+<a class="reference external" href="https://github.com/zhangxiangxiao/Crepe">Torch implementation</a> ,
+<a class="reference external" href="https://github.com/mhjabreel/CharCNN">TensorFlow implementation</a> ,
+<a class="reference external" href="https://github.com/srviest/char-cnn-pytorch">Pytorch implementation</a>]</p>
+<img alt="../_images/progress-overall-80.png" src="../_images/progress-overall-80.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>Multichannel Variable-Size Convolution for Sentence Classification</strong> :
+Multichannel Variable Size Convolutional Neural Network (MV-CNN) architecture
+Combines different version of word-embeddings in addition to
+employing variable-size convolutional filters and is proposed
+in this paper for sentence classification.
+[<a class="reference external" href="https://arxiv.org/abs/1603.04513">Paper link</a>]</p>
+<img alt="../_images/progress-overall-20.png" src="../_images/progress-overall-20.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>A Sensitivity Analysis of (and Practitioners’ Guide to) Convolutional Neural Networks for Sentence Classification</strong> :
+A practical sensitivity analysis of CNNs for exploring the effect
+of architecture on the performance, has been investigated in this paper.
+[<a class="reference external" href="https://arxiv.org/abs/1510.03820">Paper link</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>Generative and Discriminative Text Classification with Recurrent Neural Networks</strong> :
+RNN-based discriminative and generative models have been investigated for
+text classification and their robustness to the data distribution shifts has been
+claimed as well.
+[<a class="reference external" href="https://arxiv.org/abs/1703.01898">Paper link</a>]</p>
+<img alt="../_images/progress-overall-20.png" src="../_images/progress-overall-20.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>Deep sentence embedding using long short-term memory networks: Analysis and application to information retrieval</strong> :
+An LSTM-RNN architecture has been utilized
+for sentence embedding with special superiority in
+a defined web search task.
+[<a class="reference external" href="https://dl.acm.org/citation.cfm?id=2992457">Paper link</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>Hierarchical attention networks for document classification</strong> :
+Hierarchical
+Attention Network (HAN) has been presented and utilized to
+capture the hierarchical structure of the text by two word-
+level and sentence-level attention mechanism.
+[<a class="reference external" href="http://www.aclweb.org/anthology/N16-1174">Paper link</a> ,
+<a class="reference external" href="https://github.com/richliao/textClassifier">Code implementation 1</a> ,
+<a class="reference external" href="https://github.com/ematvey/hierarchical-attention-networks">Code implementation 2</a> ,
+<a class="reference external" href="https://github.com/EdGENetworks/attention-networks-for-classification">Code implementation 3</a>,
+<a class="reference external" href="https://richliao.github.io/supervised/classification/2016/12/26/textclassifier-HATN/">Summary 1</a>,
+<a class="reference external" href="https://medium.com/&#64;sharaf/a-paper-a-day-25-hierarchical-attention-networks-for-document-classification-dd76ba88f176">Summary 2</a>]</p>
+<img alt="../_images/progress-overall-80.png" src="../_images/progress-overall-80.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>Recurrent Convolutional Neural Networks for Text Classification</strong> :
+The combination of both RNNs and CNNs is used for text classification which technically
+is a recurrent architecture in addition to max-pooling with
+an effective word representation method and demonstrates
+superiority compared to simple windows-based neural network
+approaches.
+[<a class="reference external" href="http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/download/9745/9552">Paper link</a> ,
+<a class="reference external" href="https://github.com/airalcorn2/Recurrent-Convolutional-Neural-Network-Text-Classifier">Code implementation 1</a> ,
+<a class="reference external" href="https://github.com/knok/rcnn-text-classification">Code implementation 2</a> ,
+<a class="reference external" href="https://medium.com/paper-club/recurrent-convolutional-neural-networks-for-text-classification-107020765e52">Summary</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>A C-LSTM Neural Network for Text Classification</strong> :
+A unified architecture proposed for sentence and document modeling for classification.
+[<a class="reference external" href="https://arxiv.org/abs/1511.08630">Paper link</a> ]</p>
+<img alt="../_images/progress-overall-20.png" src="../_images/progress-overall-20.png" />
+</li>
+</ul>
+</div>
+<div class="section" id="sentiment-analysis">
+<h3>Sentiment Analysis<a class="headerlink" href="#sentiment-analysis" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>Domain adaptation for large-scale sentiment classification: A deep learning approach</strong> :
+A deep learning approach which learns to extract a meaningful representation for each online review.
+[<a class="reference external" href="http://www.iro.umontreal.ca/~lisa/bib/pub_subject/language/pointeurs/ICML2011_sentiment.pdf">Paper link</a>]</p>
+<img alt="../_images/progress-overall-80.png" src="../_images/progress-overall-80.png" />
+</li>
+<li><p class="first"><strong>Sentiment analysis: Capturing favorability using natural language processing</strong> :
+A sentiment analysis approach to extract sentiments associated with polarities of positive or negative for specific subjects from a document.
+[<a class="reference external" href="https://dl.acm.org/citation.cfm?id=945658">Paper link</a>]</p>
+<img alt="../_images/progress-overall-80.png" src="../_images/progress-overall-80.png" />
+</li>
+<li><p class="first"><strong>Document-level sentiment classification: An empirical comparison between SVM and ANN</strong> :
+A comparison study. [<a class="reference external" href="https://dl.acm.org/citation.cfm?id=945658">Paper link</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+<li><p class="first"><strong>Learning semantic representations of users and products for document level sentiment classification</strong> :
+Incorporating of user- and product- level information into a neural network approach for document level sentiment classification.
+[<a class="reference external" href="http://www.aclweb.org/anthology/P15-1098">Paper</a>]</p>
+<img alt="../_images/progress-overall-40.png" src="../_images/progress-overall-40.png" />
+</li>
+<li><p class="first"><strong>Document modeling with gated recurrent neural network for sentiment classification</strong> :
+A a neural network model has been proposed to learn vector-based document representation.
+[<a class="reference external" href="http://www.aclweb.org/anthology/D15-1167">Paper</a>,
+<a class="reference external" href="https://github.com/NUSTM/DLSC">Implementation</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+<li><p class="first"><strong>Semi-supervised recursive autoencoders for predicting sentiment distributions</strong> :
+A novel machine learning framework based on recursive autoencoders for sentence-level prediction.
+[<a class="reference external" href="https://dl.acm.org/citation.cfm?id=2145450">Paper</a>]</p>
+<img alt="../_images/progress-overall-80.png" src="../_images/progress-overall-80.png" />
+</li>
+<li><p class="first"><strong>A convolutional neural network for modelling sentences</strong> :
+A convolutional architecture adopted for the semantic modelling of sentences.
+[<a class="reference external" href="https://arxiv.org/abs/1404.2188">Paper</a>]</p>
+<img alt="../_images/progress-overall-80.png" src="../_images/progress-overall-80.png" />
+</li>
+<li><p class="first"><strong>Recursive deep models for semantic compositionality over a sentiment treebank</strong> :
+Recursive Neural Tensor Network for sentiment analysis.
+[<a class="reference external" href="http://www.aclweb.org/anthology/D13-1170">Paper</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+<li><p class="first"><strong>Adaptive recursive neural network for target-dependent twitter sentiment classification</strong> :
+AdaRNN adaptively propagates the sentiments of words to target depending on the context and syntactic relationships.
+[<a class="reference external" href="http://www.aclweb.org/anthology/P14-2009">Paper</a>]</p>
+<img alt="../_images/progress-overall-20.png" src="../_images/progress-overall-20.png" />
+</li>
+<li><p class="first"><strong>Aspect extraction for opinion mining with a deep convolutional neural network</strong> :
+A deep learning approach to aspect extraction in opinion mining.
+[<a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S0950705116301721">Paper</a>]</p>
+<img alt="../_images/progress-overall-20.png" src="../_images/progress-overall-20.png" />
+</li>
+</ul>
+</div>
+<div class="section" id="machine-translation">
+<h3>Machine Translation<a class="headerlink" href="#machine-translation" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>Learning phrase representations using RNN encoder-decoder for statistical machine translation</strong> :
+The proposed RNN Encoder–Decoder with a novel hidden unit has been empirically evaluated on the task of machine translation.
+[<a class="reference external" href="https://arxiv.org/abs/1406.1078">Paper</a>,
+<a class="reference external" href="https://github.com/pytorch/tutorials/blob/master/intermediate_source/seq2seq_translation_tutorial.py">Code</a>,
+<a class="reference external" href="https://medium.com/&#64;gautam.karmakar/learning-phrase-representation-using-rnn-encoder-decoder-for-machine-translation-9171cd6a6574">Blog post</a>]</p>
+<img alt="../_images/progress-overall-100.png" src="../_images/progress-overall-100.png" />
+</li>
+<li><p class="first"><strong>Sequence to Sequence Learning with Neural Networks</strong> :
+A showcase of NMT system is comparable to the traditional pipeline by Google.
+[<a class="reference external" href="http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural">Paper</a>,
+<a class="reference external" href="https://github.com/farizrahman4u/seq2seq">Code</a>]</p>
+<img alt="../_images/progress-overall-100.png" src="../_images/progress-overall-100.png" />
+</li>
+<li><p class="first"><strong>Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation</strong> :
+This work presents the design and implementation of GNMT, a production NMT system at Google.
+[<a class="reference external" href="https://arxiv.org/pdf/1609.08144.pdf">Paper</a>,
+<a class="reference external" href="https://github.com/tensorflow/nmt">Code</a>]</p>
+<img alt="../_images/progress-overall-100.png" src="../_images/progress-overall-100.png" />
+</li>
+<li><p class="first"><strong>Neural Machine Translation by Jointly Learning to Align and Translate</strong> :
+An extension to the encoder–decoder model which learns to align and translate jointly by attention mechanism.
+[<a class="reference external" href="https://arxiv.org/abs/1409.0473">Paper</a>]</p>
+<img alt="../_images/progress-overall-100.png" src="../_images/progress-overall-100.png" />
+</li>
+<li><p class="first"><strong>Effective Approaches to Attention-based Neural Machine Translation</strong> :
+Improvement of attention mechanism for NMT.
+[<a class="reference external" href="https://arxiv.org/abs/1508.04025">Paper</a>,
+<a class="reference external" href="https://github.com/mohamedkeid/Neural-Machine-Translation">Code</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+<li><p class="first"><strong>On the Properties of Neural Machine Translation: Encoder-Decoder Approaches</strong> :
+Analyzing the properties of the neural machine translation using two models; RNN Encoder–Decoder and a newly proposed gated recursive convolutional neural network.
+[<a class="reference external" href="https://arxiv.org/abs/1409.12595">Paper</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+<li><p class="first"><strong>On Using Very Large Target Vocabulary for Neural Machine Translation</strong> :
+A method that allows to use a very large target vocabulary without increasing training complexity.
+[<a class="reference external" href="https://arxiv.org/abs/1412.2007">Paper</a>]</p>
+<img alt="../_images/progress-overall-40.png" src="../_images/progress-overall-40.png" />
+</li>
+<li><p class="first"><strong>Convolutional sequence to sequence learning</strong> :
+An architecture based entirely on convolutional neural networks.
+[<a class="reference external" href="https://arxiv.org/abs/1705.03122">Paper</a>,
+<a class="reference external" href="https://github.com/facebookresearch/fairseq">Code[Torch]</a>,
+<a class="reference external" href="https://github.com/pytorch/fairseq">Code[Pytorch]</a>,
+<a class="reference external" href="https://code.facebook.com/posts/1978007565818999/a-novel-approach-to-neural-machine-translation/">Post</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+<li><p class="first"><strong>Attention Is All You Need</strong> :
+The Transformer: a novel neural network architecture based on a self-attention mechanism.
+[<a class="reference external" href="https://arxiv.org/abs/1706.03762">Paper</a>,
+<a class="reference external" href="https://github.com/tensorflow/tensor2tensor">Code</a>,
+<a class="reference external" href="https://ai.googleblog.com/2017/06/accelerating-deep-learning-research.html">Accelerating Deep Learning Research with the Tensor2Tensor Library</a>,
+<a class="reference external" href="https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html">Transformer: A Novel Neural Network Architecture for Language Understanding</a>]</p>
+<img alt="../_images/progress-overall-100.png" src="../_images/progress-overall-100.png" />
+</li>
+</ul>
+</div>
+<div class="section" id="summarization">
+<h3>Summarization<a class="headerlink" href="#summarization" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>A Neural Attention Model for Abstractive Sentence Summarization</strong> :
+A fully data-driven approach to abstractive sentence summarization based on a local attention model.
+[<a class="reference external" href="https://arxiv.org/abs/1509.00685">Paper</a>,
+<a class="reference external" href="https://github.com/facebookarchive/NAMAS">Code</a>,
+<a class="reference external" href="http://thegrandjanitor.com/2018/05/09/a-read-on-a-neural-attention-model-for-abstractive-sentence-summarization-by-a-m-rush-sumit-chopra-and-jason-weston/">A Read on “A Neural Attention Model for Abstractive Sentence Summarization”</a>,
+<a class="reference external" href="https://medium.com/&#64;supersonic_ss/paper-a-neural-attention-model-for-abstractive-sentence-summarization-a6fa9b33f09b">Blog Post</a>,
+<a class="reference external" href="https://github.com/dennybritz/deeplearning-papernotes/blob/master/notes/neural-attention-model-for-abstractive-sentence-summarization.md">Paper notes</a>,]</p>
+<img alt="../_images/progress-overall-100.png" src="../_images/progress-overall-100.png" />
+</li>
+<li><p class="first"><strong>Get To The Point: Summarization with Pointer-Generator Networks</strong> :
+A novel architecture that augments the standard sequence-to-sequence attentional model by using a hybrid pointer-generator network that may copy words from the source text via pointing and using coverage to keep track of what has been summarized.
+[<a class="reference external" href="https://arxiv.org/abs/1704.04368">Paper</a>,
+<a class="reference external" href="https://github.com/abisee/pointer-generator">Code</a>,
+<a class="reference external" href="https://www.coursera.org/lecture/language-processing/get-to-the-point-summarization-with-pointer-generator-networks-RhxPO">Video</a>,
+<a class="reference external" href="http://www.abigailsee.com/2017/04/16/taming-rnns-for-better-summarization.html">Blog Post</a>]</p>
+<img alt="../_images/progress-overall-100.png" src="../_images/progress-overall-100.png" />
+</li>
+<li><p class="first"><strong>Abstractive Sentence Summarization with Attentive Recurrent Neural Networks</strong> :
+A  conditional  recurrent  neural  network (RNN) based on convolutional attention-based encoder which generates a summary of an input sentence.
+[<a class="reference external" href="http://www.aclweb.org/anthology/N16-1012">Paper</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+<li><p class="first"><strong>Abstractive Text Summarization Using Sequence-to-Sequence RNNs and Beyond</strong> :
+Abstractive text summarization using Attentional Encoder-Decoder Recurrent Neural Networks
+[<a class="reference external" href="https://arxiv.org/abs/1602.06023">Paper</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+<li><p class="first"><strong>A Deep Reinforced Model for Abstractive Summarization</strong> :
+A neural network model with a novel intra-attention that attends over the input and continuously generated output separately, and a new training method that combines standard supervised word prediction and reinforcement learning (RL).
+[<a class="reference external" href="https://arxiv.org/abs/1705.04304">Paper</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+</ul>
+</div>
+<div class="section" id="question-answering">
+<h3>Question Answering<a class="headerlink" href="#question-answering" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p class="first"><strong>Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks</strong> :
+An argue for the usefulness of a set of proxy tasks that evaluate reading comprehension via question answering.
+[<a class="reference external" href="https://arxiv.org/abs/1502.05698">Paper</a>]</p>
+<img alt="../_images/progress-overall-60.png" src="../_images/progress-overall-60.png" />
+</li>
+<li><p class="first"><strong>Teaching Machines to Read and Comprehend</strong> :
+addressing the lack of real natural language training data by introducing a novel approach to building a supervised reading comprehension data set.
+[<a class="reference external" href="http://papers.nips.cc/paper/5945-teaching-machines-to-read-and-comprehend.pdf">Paper</a>]</p>
+<img alt="../_images/progress-overall-80.png" src="../_images/progress-overall-80.png" />
+</li>
+<li><p class="first"><strong>Ask Me Anything Dynamic Memory Networks for Natural Language Processing</strong> :
+Introducing the dynamic memory network (DMN), a neural network architecture which processes input sequences and questions, forms episodic memories, and generates relevant answers
+[<a class="reference external" href="http://proceedings.mlr.press/v48/kumar16.pdf">Paper</a>]</p>
+<img alt="../_images/progress-overall-80.png" src="../_images/progress-overall-80.png" />
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="courses.html" class="btn btn-neutral float-right" title="Courses" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../intro/intro.html" class="btn btn-neutral" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Amirsina Torfi.
+      Last updated on True.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            LANGUAGE:'en',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
