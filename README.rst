@@ -171,15 +171,26 @@ Autoencoders
 Generative Models
 -----------------------
 
-* **Character-level convolutional networks for text classification** :
-  Promising results by the use of one-hot encoding possibly due to their character-level information.
-  [`Paper link <http://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classifica>`_ ,
-  `Torch implementation <https://github.com/zhangxiangxiao/Crepe>`_ ,
-  `TensorFlow implementation <https://github.com/mhjabreel/CharCNN>`_ ,
-  `Pytorch implementation <https://github.com/srviest/char-cnn-pytorch>`_]
+* **Exploiting generative models discriminative classifiers** :
+  [`Paper <http://papers.nips.cc/paper/1520-exploiting-generative-models-in-discriminative-classifiers.pdf>`_]
 
   .. image:: _img/mainpage/progress-overall-80.png
 
+* **Semi-supervised Learning with Deep Generative Models** :
+  [`Paper <http://papers.nips.cc/paper/5352-semi-supervised-learning-with-deep-generative-models>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+
+* **Generative Adversarial Nets** :
+  [`Paper <http://papers.nips.cc/paper/5423-generative-adversarial-nets>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **Generalized Denoising Auto-Encoders as Generative Models** :
+  [`Paper <http://papers.nips.cc/paper/5023-generalized-denoising-auto-encoders-as-generative-models>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
 
 -----------------------
 Linear Factor Models
