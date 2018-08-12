@@ -74,32 +74,14 @@ Models
 ====================
 
 -----------------------
-Feedforward Networks
------------------------
-
-.. For continuous lines, the lines must be start from the same locations.
-* **Character-level convolutional networks for text classification** :
-  Promising results by the use of one-hot encoding possibly due to their character-level information.
-  [`Paper link <http://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classifica>`_ ,
-  `Torch implementation <https://github.com/zhangxiangxiao/Crepe>`_ ,
-  `TensorFlow implementation <https://github.com/mhjabreel/CharCNN>`_ ,
-  `Pytorch implementation <https://github.com/srviest/char-cnn-pytorch>`_]
-
-  .. image:: _img/mainpage/progress-overall-80.png
-
------------------------
 Convolutional Networks
 -----------------------
 
 .. For continuous lines, the lines must be start from the same locations.
-* **Character-level convolutional networks for text classification** :
-  Promising results by the use of one-hot encoding possibly due to their character-level information.
-  [`Paper link <http://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classifica>`_ ,
-  `Torch implementation <https://github.com/zhangxiangxiao/Crepe>`_ ,
-  `TensorFlow implementation <https://github.com/mhjabreel/CharCNN>`_ ,
-  `Pytorch implementation <https://github.com/srviest/char-cnn-pytorch>`_]
+* **Imagenet classification with deep convolutional neural networks** :
+  [`Paper link <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks>`_]
 
-  .. image:: _img/mainpage/progress-overall-80.png
+  .. image:: _img/mainpage/progress-overall-100.png
 
 -----------------------
 Recurrent Networks
@@ -297,7 +279,7 @@ Speech
   `Official code implementation <https://code.google.com/archive/p/word2vec/>`_]
 
   .. image:: _img/mainpage/progress-overall-100.png
-  
+
 ----------------------------
 Caption Generation
 ----------------------------
