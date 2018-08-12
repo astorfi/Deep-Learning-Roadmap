@@ -220,32 +220,29 @@ Probabilistic Models
 Core
 ====================
 
-------------------------------
-Regularization
-------------------------------
-
-.. ################################################################################
-.. For continuous lines, the lines must be start from the same locations.
-* **Distributed Representations of Words and Phrases and their Compositionality** :
-  Not necessarily about CBOWs but the techniques represented in this paper
-  can be used for training the continuous bag-of-words model.
-  [`Paper link <http://papers.nips.cc/paper/5021-distributed-representations-of-words-andphrases>`_ ,
-  `Code implementation 1 <https://code.google.com/archive/p/word2vec/>`_,
-  `Code implementation 2 <https://github.com/deborausujono/word2vecpy>`_]
-
-
-  .. image:: _img/mainpage/progress-overall-100.png
-
 ---------------------
 Optimization
 ---------------------
 
 .. ################################################################################
 .. For continuous lines, the lines must be start from the same locations.
-* **Efficient Estimation of Word Representations in Vector Space** :
-  Two novel model architectures for computing continuous vector representations of words.
-  [`Paper link <https://arxiv.org/abs/1301.3781>`_ ,
-  `Official code implementation <https://code.google.com/archive/p/word2vec/>`_]
+* **Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift** :
+  [`Paper <https://arxiv.org/abs/1502.03167>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **Dropout: A Simple Way to Prevent Neural Networks from Overfitting** :
+  [`Paper <http://www.jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf?utm_content=buffer79b43&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **Training Very Deep Networks** :
+  [`Paper <http://papers.nips.cc/paper/5850-training-very-deep-networks>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification** :
+  [`Paper <https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/He_Delving_Deep_into_ICCV_2015_paper.pdf>`_]
 
   .. image:: _img/mainpage/progress-overall-100.png
 
