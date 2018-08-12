@@ -272,13 +272,26 @@ Representation Learning
 
 
 ---------------------
-Transfer Learning
+Understanding and Transfer Learning
 ---------------------
 
-* **Efficient Estimation of Word Representations in Vector Space** :
-  Two novel model architectures for computing continuous vector representations of words.
-  [`Paper link <https://arxiv.org/abs/1301.3781>`_ ,
-  `Official code implementation <https://code.google.com/archive/p/word2vec/>`_]
+* **Learning and Transferring Mid-Level Image Representations using Convolutional Neural Networks** :
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Oquab_Learning_and_Transferring_2014_CVPR_paper.html>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **Distilling the Knowledge in a Neural Network** :
+  [`Paper <https://arxiv.org/abs/1503.02531>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition** :
+  [`Paper <http://proceedings.mlr.press/v32/donahue14.pdf>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **How transferable are features in deep neural networks?** :
+  [`Paper <http://papers.nips.cc/paper/5347-how-transferable-are-features-in-deep-n%E2%80%A6>`_]
 
   .. image:: _img/mainpage/progress-overall-100.png
 
