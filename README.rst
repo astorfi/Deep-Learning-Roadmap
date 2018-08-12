@@ -83,47 +83,89 @@ Convolutional Networks
 
   .. image:: _img/mainpage/progress-overall-100.png
 
+* **Convolutional Neural Networks for Sentence Classification** :
+  [`Paper <https://arxiv.org/abs/1408.5882>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **Large-scale Video Classification with Convolutional Neural Networks** :
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Karpathy_Large-scale_Video_Classification_2014_CVPR_paper.html>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **Learning and Transferring Mid-Level Image Representations using Convolutional Neural Networks** :
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Oquab_Learning_and_Transferring_2014_CVPR_paper.html>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+
+* **Deep convolutional neural networks for LVCSR** :
+  [`Paper <https://ieeexplore.ieee.org/abstract/document/6639347/&hl=zh-CN&sa=T&oi=gsb&ct=res&cd=0&ei=KknXWYbGFMbFjwSsyICADQ&scisig=AAGBfm2F0Zlu0ciUwadzshNNm80IQQhuhA>`_]
+
+  .. image:: _img/mainpage/progress-overall-60.png
+
+* **Face recognition: a convolutional neural-network approach** :
+  [`Paper <https://ieeexplore.ieee.org/abstract/document/554195/>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+
+
 -----------------------
 Recurrent Networks
 -----------------------
 
 .. For continuous lines, the lines must be start from the same locations.
-* **Character-level convolutional networks for text classification** :
-  Promising results by the use of one-hot encoding possibly due to their character-level information.
-  [`Paper link <http://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classifica>`_ ,
-  `Torch implementation <https://github.com/zhangxiangxiao/Crepe>`_ ,
-  `TensorFlow implementation <https://github.com/mhjabreel/CharCNN>`_ ,
-  `Pytorch implementation <https://github.com/srviest/char-cnn-pytorch>`_]
+* **An empirical exploration of recurrent network architectures** :
+  [`Paper <http://proceedings.mlr.press/v37/jozefowicz15.pdf?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=revue>`_]
 
   .. image:: _img/mainpage/progress-overall-80.png
 
------------------------
-Recursive Networks
------------------------
-
-.. For continuous lines, the lines must be start from the same locations.
-* **Character-level convolutional networks for text classification** :
-  Promising results by the use of one-hot encoding possibly due to their character-level information.
-  [`Paper link <http://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classifica>`_ ,
-  `Torch implementation <https://github.com/zhangxiangxiao/Crepe>`_ ,
-  `TensorFlow implementation <https://github.com/mhjabreel/CharCNN>`_ ,
-  `Pytorch implementation <https://github.com/srviest/char-cnn-pytorch>`_]
+* **LSTM: A search space odyssey** :
+  [`Paper <https://ieeexplore.ieee.org/abstract/document/7508408/`_]
 
   .. image:: _img/mainpage/progress-overall-80.png
 
+
+* **On the difficulty of training recurrent neural networks** :
+  [`Paper <http://proceedings.mlr.press/v28/pascanu13.pdf`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **Learning to forget: Continual prediction with LSTM** :
+  [`Paper <http://digital-library.theiet.org/content/conferences/10.1049/cp_19991218`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
 
 -----------------------
 Autoencoders
 -----------------------
 
-* **Character-level convolutional networks for text classification** :
-  Promising results by the use of one-hot encoding possibly due to their character-level information.
-  [`Paper link <http://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classifica>`_ ,
-  `Torch implementation <https://github.com/zhangxiangxiao/Crepe>`_ ,
-  `TensorFlow implementation <https://github.com/mhjabreel/CharCNN>`_ ,
-  `Pytorch implementation <https://github.com/srviest/char-cnn-pytorch>`_]
+* **Extracting and composing robust features with denoising autoencoders** :
+  [`Paper <https://dl.acm.org/citation.cfm?id=1390294>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion** :
+  [`Paper <http://www.jmlr.org/papers/v11/vincent10a.html>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **Adversarial Autoencoders** :
+  [`Paper <https://arxiv.org/abs/1511.05644>`_]
+
+  .. image:: _img/mainpage/progress-overall-60.png
+
+* **Autoencoders, Unsupervised Learning, and Deep Architectures** :
+  [`Paper <http://proceedings.mlr.press/v27/baldi12a/baldi12a.pdf>`_]
 
   .. image:: _img/mainpage/progress-overall-80.png
+
+* **Reducing the Dimensionality of Data with Neural Networks** :
+  [`Paper <http://science.sciencemag.org/content/313/5786/504>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
 
 -----------------------
 Generative Models
