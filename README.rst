@@ -268,8 +268,6 @@ Optimization
 Representation Learning
 ------------------------
 
-.. image:: _img/mainpage/representationlearning.png
-
 * **Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks** :
   [`Paper <https://arxiv.org/abs/1511.06434>`_]
 
