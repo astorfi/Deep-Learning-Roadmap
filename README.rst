@@ -290,8 +290,6 @@ Representation Learning
 Understanding and Transfer Learning
 ------------------------------------
 
-.. image:: _img/mainpage/representationlearning.png
-
 * **Learning and Transferring Mid-Level Image Representations using Convolutional Neural Networks** :
   [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Oquab_Learning_and_Transferring_2014_CVPR_paper.html>`_]
 
