@@ -235,8 +235,6 @@ Core
 Optimization
 ---------------------
 
-.. image:: _img/mainpage/Newton_optimization_vs_grad_descent.svg
-
 .. ################################################################################
 .. For continuous lines, the lines must be start from the same locations.
 * **Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift** :
@@ -312,10 +310,6 @@ Understanding and Transfer Learning
 Reinforcement Learning
 -----------------------
 
-.. image:: _img/mainpage/Reinforcement_learning_diagram.png
-
-
-
 * **Human-level control through deep reinforcement learning** :
   [`Paper <https://www.nature.com/articles/nature14236/>`_]
 
@@ -332,12 +326,12 @@ Reinforcement Learning
   .. image:: _img/mainpage/progress-overall-80.png
 
 * **Deep Reinforcement Learning with Double Q-Learning** :
-  [`Paper <http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12389/11847`_]
+  [`Paper <http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12389/11847>`_]
 
   .. image:: _img/mainpage/progress-overall-60.png
 
 * **Dueling Network Architectures for Deep Reinforcement Learning** :
-  [`Paper <https://arxiv.org/abs/1511.06581`_]
+  [`Paper <https://arxiv.org/abs/1511.06581>`_]
 
   .. image:: _img/mainpage/progress-overall-60.png
 
