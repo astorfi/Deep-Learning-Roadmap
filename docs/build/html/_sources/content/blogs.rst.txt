@@ -4,30 +4,29 @@ Blogs
 
 .. image:: _img/mainpage/Blogger_icon.png
 
-* **Understanding Convolutional Neural Networks for NLP** by Denny Britz:
-  [`Link <http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/>`_]
+* **Colah's blog**:
+  [`Link <http://colah.github.io/>`_]
 
-* **Deep Learning, NLP, and Representations** by Matthew Honnibal:
-  [`Link <http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/>`_]
+* **Andrej Karpathy blog**:
+  [`Link <http://karpathy.github.io/>`_]
 
-* **Embed, encode, attend, predict: The new deep learning formula for state-of-the-art NLP models** by Sebastian Ruder:
-  [`Link <https://explosion.ai/blog/deep-learning-formula-nlp>`_]
+* **The Spectator** Shakir's Machine Learning Blog:
+  [`Link <http://blog.shakirm.com/>`_]
 
-* **Embed, encode, attend, predict: The new deep learning formula for state-of-the-art NLP models** by Sebastian Ruder:
-  [`Link <https://explosion.ai/blog/deep-learning-formula-nlp>`_]
+* **WILDML**:
+  [`Link <http://www.wildml.com/about/>`_]
 
-* **Natural Language Processing** by Sebastian Ruder:
-  [`Link <http://blog.aylien.com/12-of-the-best-free-natural-language-processing-and-machine-learning-educational-resources/>`_]
+* **Distill blog**:
+  [`Link <https://distill.pub/>`_]
 
-* **Probably Approximately a Scientific Blog** by Vered Schwartz:
-  [`Link <http://veredshwartz.blogspot.com/>`_]
+* **BAIR** Berkeley Artificial Inteliigent Research:
+  [`Link <http://bair.berkeley.edu/blog/>`_]
 
-* **NLP news** by Sebastian Ruder:
-  [`Link <http://newsletter.ruder.io/>`_]
+* **Sebastian Ruder's blog**:
+  [`Link <http://ruder.io/>`_]
 
-* **Deep Learning for Natural Language Processing (NLP): Advancements & Trends**:
-  [`Link <https://tryolabs.com/blog/2017/12/12/deep-learning-for-nlp-advancements-and-trends-in-2017/>`_]
+* **inFERENCe**:
+  [`Link <https://www.inference.vc/page/2/>`_]
 
-* **Neural Language Modeling From Scratch**:
-  [`Link <http://ofir.io/Neural-Language-Modeling-From-Scratch/?a=1>`_]
-
+* **i am trask** A Machine Learning Craftsmanship Blog:
+  [`Link <http://iamtrask.github.io>`_]

@@ -21,7 +21,6 @@ Welcome to Deep Learning NLP documentation!
    content/books
    content/blogs
    content/tutorials
-   content/datasets
 
 .. toctree::
    :maxdepth: 2
