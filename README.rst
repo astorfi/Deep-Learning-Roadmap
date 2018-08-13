@@ -471,27 +471,80 @@ Caption Generation
 Natural Language Processing
 ----------------------------
 
-* **Efficient Estimation of Word Representations in Vector Space** :
-  Two novel model architectures for computing continuous vector representations of words.
-  [`Paper link <https://arxiv.org/abs/1301.3781>`_ ,
-  `Official code implementation <https://code.google.com/archive/p/word2vec/>`_]
+* **Distributed Representations of Words and Phrases and their Compositionality** :
+  [`Paper <http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf>`_]
 
   .. image:: _img/mainpage/progress-overall-100.png
 
-
-----------------------------
-Speech
-----------------------------
-
 * **Efficient Estimation of Word Representations in Vector Space** :
-  Two novel model architectures for computing continuous vector representations of words.
-  [`Paper link <https://arxiv.org/abs/1301.3781>`_ ,
-  `Official code implementation <https://code.google.com/archive/p/word2vec/>`_]
+  [`Paper <https://arxiv.org/pdf/1301.3781.pdf>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **Sequence to Sequence Learning with Neural Networks** :
+  [`Paper <https://arxiv.org/pdf/1409.3215.pdf>`_]
 
   .. image:: _img/mainpage/progress-overall-100.png
 
+* **Neural Machine Translation by Jointly Learning to Align and Translate** :
+  [`Paper <https://arxiv.org/pdf/1409.0473.pdf>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **Get To The Point: Summarization with Pointer-Generator Networks** :
+  [`Paper <https://arxiv.org/abs/1704.04368>`_]
+
+  .. image:: _img/mainpage/progress-overall-60.png
+
+* **Attention Is All You Need** :
+  [`Paper <https://arxiv.org/abs/1706.03762>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **Convolutional Neural Networks for Sentence Classification** :
+  [`Paper <https://arxiv.org/abs/1408.5882>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
 
 
+----------------------------
+Speech Technology
+----------------------------
+
+* **Deep Neural Networks for Acoustic Modeling in Speech Recognition: The Shared Views of Four Research Groups** :
+  [`Paper <https://ieeexplore.ieee.org/abstract/document/6296526/>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **Towards End-to-End Speech Recognition with Recurrent Neural Networks** :
+  [`Paper <http://proceedings.mlr.press/v32/graves14.pdf>`_]
+
+  .. image:: _img/mainpage/progress-overall-60.png
+
+* **Speech recognition with deep recurrent neural networks** :
+  [`Paper <https://ieeexplore.ieee.org/abstract/document/6638947/>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **Fast and Accurate Recurrent Neural Network Acoustic Models for Speech Recognition** :
+  [`Paper <https://arxiv.org/abs/1507.06947>`_]
+
+  .. image:: _img/mainpage/progress-overall-60.png
+
+* **Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin** :
+  [`Paper <http://proceedings.mlr.press/v48/amodei16.html>`_]
+
+  .. image:: _img/mainpage/progress-overall-60.png
+
+* **Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin** :
+  [`Paper <http://proceedings.mlr.press/v48/amodei16.html>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **A novel scheme for speaker recognition using a phonetically-aware deep neural network** :
+  [`Paper <https://ieeexplore.ieee.org/abstract/document/6853887/>`_]
+
+  .. image:: _img/mainpage/progress-overall-60.png
 
 
 
