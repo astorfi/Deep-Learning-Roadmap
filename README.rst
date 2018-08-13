@@ -573,7 +573,7 @@ Courses
   [`Link <http://cs224d.stanford.edu/>`_]
 
 * **Deep Learning** by fast.ai:
-  [`http://www.fast.ai/>`_]
+  [`Link <http://www.fast.ai/>`_]
 
 
 ************
