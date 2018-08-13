@@ -29,7 +29,7 @@ Introduction
 ***************
 
 The purpose of this project is to introduce a shortcut to developers and researcher
-for finding useful resources about Deep Learning for Natural Language Processing.
+for finding useful resources about Deep Learning.
 
 ============
 Motivation
