@@ -77,6 +77,8 @@ Models
 Convolutional Networks
 -----------------------
 
+  .. image:: _img/mainpage/convolutional.png
+
 .. For continuous lines, the lines must be start from the same locations.
 * **Imagenet classification with deep convolutional neural networks** :
   [`Paper <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks>`_]
