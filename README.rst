@@ -117,6 +117,9 @@ Convolutional Networks
 Recurrent Networks
 -----------------------
 
+  .. image:: _img/mainpage/Recurrent_neural_network_unfold.png
+
+
 .. For continuous lines, the lines must be start from the same locations.
 * **An empirical exploration of recurrent network architectures** :
   [`Paper <http://proceedings.mlr.press/v37/jozefowicz15.pdf?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=revue>`_]
