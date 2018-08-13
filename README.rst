@@ -573,9 +573,6 @@ Face
 * **Face Recognition Technology (FERET)** The goal of the FERET program was to develop automatic face recognition capabilities that could be employed to assist security, intelligence, and law enforcement personnel in the performance of their duties:
   [`Link <https://www.nist.gov/programs-projects/face-recognition-technology-feret>`_]
   
-* **CIFAR** :
-  [`Link <http://www.cs.utoronto.ca/~kriz/cifar.html>`_]
-  
 * **The CMU Pose, Illumination, and Expression (PIE) Database of Human Faces** Between October and December 2000 we collected a database of 41,368 images of 68 people:
   [`Link <https://www.ri.cmu.edu/publications/the-cmu-pose-illumination-and-expression-pie-database-of-human-faces/>`_]
   
