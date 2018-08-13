@@ -341,7 +341,7 @@ Image Recognition
 * **Very Deep Convolutional Networks for Large-Scale Image Recognition** :
   [`Paper <https://arxiv.org/abs/1409.1556>`_]
 
-.. image:: _img/mainpage/progress-overall-100.png
+  .. image:: _img/mainpage/progress-overall-100.png
 
 * **Multi-column Deep Neural Networks for Image Classification** :
   [`Paper <https://arxiv.org/abs/1202.2745>`_]
