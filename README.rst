@@ -582,17 +582,17 @@ Books
 
 .. image:: _img/mainpage/books.jpg
 
-* **Speech and Language Processing** by Dan Jurafsky and James H. Martin at stanford:
-  [`Link <https://web.stanford.edu/~jurafsky/slp3/>`_]
+* **Deep Learning** by Ian Goodfellow:
+  [`Link <http://www.deeplearningbook.org/>`_]
 
-* **Neural Network Methods for Natural Language Processing** by Yoav Goldberg:
-  [`Link <https://www.morganclaypool.com/doi/abs/10.2200/S00762ED1V01Y201703HLT037>`_]
+* **Neural Networks and Deep Learning** :
+  [`Link <http://neuralnetworksanddeeplearning.com/>`_]
 
-* **Deep Learning with Text: Natural Language Processing (Almost) from Scratch with Python and spaCy** by Patrick Harrison, Matthew Honnibal:
-  [`Link <https://www.amazon.com/Deep-Learning-Text-Approach-Processing/dp/1491984414>`_]
+* **Deep Learning with Python**:
+  [`Link <https://www.amazon.com/Deep-Learning-Python-Francois-Chollet/dp/1617294438/ref=as_li_ss_tl?s=books&ie=UTF8&qid=1519989624&sr=1-4&keywords=deep+learning+with+python&linkCode=sl1&tag=trndingcom-20&linkId=ec7663329fdb7ace60f39c762e999683>`_]
 
-* **Natural Language Processing with Python** by Steven Bird, Ewan Klein, and Edward Loper:
-  [`Link <http://www.nltk.org/book/>`_]
+* **Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems**:
+  [`Link <https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291/ref=as_li_ss_tl?ie=UTF8&qid=1519989725&sr=1-2-ent&linkCode=sl1&tag=trndingcom-20&linkId=71938c9398940c7b0a811dc1cfef7cc3>`_]
 
 
 ************
@@ -601,32 +601,32 @@ Blogs
 
 .. image:: _img/mainpage/Blogger_icon.png
 
-* **Understanding Convolutional Neural Networks for NLP** by Denny Britz:
-  [`Link <http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/>`_]
+* **Colah's blog**:
+  [`Link <http://colah.github.io/>`_]
 
-* **Deep Learning, NLP, and Representations** by Matthew Honnibal:
-  [`Link <http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/>`_]
+* **Andrej Karpathy blog**:
+  [`Link <http://karpathy.github.io/>`_]
 
-* **Embed, encode, attend, predict: The new deep learning formula for state-of-the-art NLP models** by Sebastian Ruder:
-  [`Link <https://explosion.ai/blog/deep-learning-formula-nlp>`_]
+* **The Spectator** Shakir's Machine Learning Blog:
+  [`Link <http://blog.shakirm.com/>`_]
 
-* **Embed, encode, attend, predict: The new deep learning formula for state-of-the-art NLP models** by Sebastian Ruder:
-  [`Link <https://explosion.ai/blog/deep-learning-formula-nlp>`_]
+* **WILDML**:
+  [`Link <http://www.wildml.com/about/>`_]
 
-* **Natural Language Processing** by Sebastian Ruder:
-  [`Link <http://blog.aylien.com/12-of-the-best-free-natural-language-processing-and-machine-learning-educational-resources/>`_]
+* **Distill blog**:
+  [`Link <https://distill.pub/>`_]
 
-* **Probably Approximately a Scientific Blog** by Vered Schwartz:
-  [`Link <http://veredshwartz.blogspot.com/>`_]
+* **BAIR** Berkeley Artificial Inteliigent Research:
+  [`Link <http://bair.berkeley.edu/blog/`_]
 
-* **NLP news** by Sebastian Ruder:
-  [`Link <http://newsletter.ruder.io/>`_]
+* **Sebastian Ruder's blog**:
+  [`Link <http://ruder.io/>`_]
 
-* **Deep Learning for Natural Language Processing (NLP): Advancements & Trends**:
-  [`Link <https://tryolabs.com/blog/2017/12/12/deep-learning-for-nlp-advancements-and-trends-in-2017/>`_]
+* **inFERENCe**:
+  [`Link <https://www.inference.vc/page/2/>`_]
 
-* **Neural Language Modeling From Scratch**:
-  [`Link <http://ofir.io/Neural-Language-Modeling-From-Scratch/?a=1>`_]
+* **i am trask** A Machine Learning Craftsmanship Blog:
+  [`Link <http://iamtrask.github.io>`_]
 
 
 ************
