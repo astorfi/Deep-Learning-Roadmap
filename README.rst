@@ -235,6 +235,8 @@ Core
 Optimization
 ---------------------
 
+  .. image:: _img/mainpage/Newton_optimization_vs_grad_descent.png
+
 .. ################################################################################
 .. For continuous lines, the lines must be start from the same locations.
 * **Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift** :
@@ -266,6 +268,8 @@ Optimization
 Representation Learning
 ------------------------
 
+.. image:: _img/mainpage/representationlearning.png
+
 * **Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks** :
   [`Paper <https://arxiv.org/abs/1511.06434>`_]
 
@@ -282,9 +286,11 @@ Representation Learning
   .. image:: _img/mainpage/progress-overall-60.png
 
 
----------------------
+------------------------------------
 Understanding and Transfer Learning
----------------------
+------------------------------------
+
+.. image:: _img/mainpage/representationlearning.png
 
 * **Learning and Transferring Mid-Level Image Representations using Convolutional Neural Networks** :
   [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Oquab_Learning_and_Transferring_2014_CVPR_paper.html>`_]
@@ -309,6 +315,10 @@ Understanding and Transfer Learning
 -----------------------
 Reinforcement Learning
 -----------------------
+
+.. image:: _img/mainpage/Reinforcement_learning_diagram.png
+
+
 
 * **Human-level control through deep reinforcement learning** :
   [`Paper <https://www.nature.com/articles/nature14236/>`_]
