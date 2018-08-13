@@ -1,19 +1,19 @@
 .. image:: _img/mainpage/logo.gif
 
 ###################################################
-Deep Learning for Natural Language Processing
+Deep Learning World
 ###################################################
 
 .. image:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
-    :target: https://github.com/astorfi/Deep-Learning-NLP/pulls
+    :target: https://github.com/astorfi/Deep-Learning-World/pulls
 .. image:: https://badges.frapsoft.com/os/v2/open-source.png?v=103
     :target: https://github.com/ellerbrock/open-source-badge/
 .. image:: https://img.shields.io/badge/Made%20with-Python-1f425f.svg
       :target: https://www.python.org/
 .. image:: https://img.shields.io/pypi/l/ansicolortags.svg
-      :target: https://github.com/astorfi/Deep-Learning-NLP/blob/master/LICENSE
+      :target: https://github.com/astorfi/Deep-Learning-World/blob/master/LICENSE
 .. image:: https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg
-      :target: https://github.com/astorfi/Deep-Learning-NLP/graphs/contributors
+      :target: https://github.com/astorfi/Deep-Learning-World/graphs/contributors
 
 
 
@@ -67,7 +67,7 @@ Papers
 
 .. image:: _img/mainpage/article.jpeg
 
-This chapter is associated with the papers published in NLP using deep learning.
+This chapter is associated with the papers published in deep learning.
 
 ====================
 Models
@@ -643,12 +643,6 @@ Tutorials
 
 * **Deep Learning for Natural Language Processing: Tutorials with Jupyter Notebooks** by Jon Krohn:
   [`Link <https://insights.untapt.com/deep-learning-for-natural-language-processing-tutorials-with-jupyter-notebooks-ad67f336ce3f>`_]
-
-
-************
-Datasets
-************
-
 
 
 ************
