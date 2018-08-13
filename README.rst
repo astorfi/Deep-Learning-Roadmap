@@ -558,6 +558,39 @@ Speech Technology
   .. image:: _img/mainpage/progress-overall-60.png
 
 
+************
+Datasets
+************
+
+====================
+Image
+====================
+
+----------------------------
+Face
+----------------------------
+
+* **Face Recognition Technology (FERET)** The goal of the FERET program was to develop automatic face recognition capabilities that could be employed to assist security, intelligence, and law enforcement personnel in the performance of their duties:
+  [`Link <https://www.nist.gov/programs-projects/face-recognition-technology-feret>`_]
+  
+* **CIFAR** :
+  [`Link <http://www.cs.utoronto.ca/~kriz/cifar.html>`_]
+  
+* **The CMU Pose, Illumination, and Expression (PIE) Database of Human Faces** Between October and December 2000 we collected a database of 41,368 images of 68 people:
+  [`Link <https://www.ri.cmu.edu/publications/the-cmu-pose-illumination-and-expression-pie-database-of-human-faces/>`_]
+  
+* **YouTube Faces DB** The data set contains 3,425 videos of 1,595 different people. All the videos were downloaded from YouTube. An average of 2.15 videos are available for each subject:
+  [`Link <https://www.cs.tau.ac.il/~wolf/ytfaces/>`_]
+  
+* **Grammatical Facial Expressions Data Set** Developed to assist the the automated analysis of facial expressions:
+  [`Link <https://archive.ics.uci.edu/ml/datasets/Grammatical+Facial+Expressions>`_]
+
+* **FaceScrub** A Dataset With Over 100,000 Face Images of 530 People:
+  [`Link <http://vintage.winklerbros.net/facescrub.html>`_]
+
+* **IMDB-WIKI** 500k+ face images with age and gender labels:
+  [`Link <https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/>`_]
+
 
 ************
 Courses
