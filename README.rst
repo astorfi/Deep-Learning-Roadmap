@@ -587,6 +587,50 @@ Face
 
 * **IMDB-WIKI** 500k+ face images with age and gender labels:
   [`Link <https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/>`_]
+  
+
+----------------------------
+Object Recognition
+----------------------------
+
+* **COCO** Microsoft COCO: Common Objects in Context:
+  [`Link <http://cocodataset.org/#home>`_]
+  
+* **ImageNet** The famous ImageNet dataset:
+  [`Link <http://www.image-net.org/>`_]
+  
+* **Open Images Dataset** Open Images is a dataset of ~9 million images that have been annotated with image-level labels and object bounding boxes:
+  [`Link <https://storage.googleapis.com/openimages/web/index.html>`_]
+  
+* **Caltech-256 Object Category Dataset** A large dataset object classification:
+  [`Link <https://authors.library.caltech.edu/7694/>`_]
+  
+* **Pascal VOC dataset** A large dataset for classification tasks:
+  [`Link <http://host.robots.ox.ac.uk/pascal/VOC/>`_]
+
+* **CIFAR 10 / CIFAR 100** The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes. CIFAR-100 is similar to CIFAR-10 but it has 100 classes containing 600 images each:
+  [`Link <https://www.cs.toronto.edu/~kriz/cifar.html>`_]
+  
+
+----------------------------
+Action recognition
+----------------------------
+
+* **HMDB** a large human motion database:
+  [`Link <http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/>`_]
+  
+* **MHAD** Berkeley Multimodal Human Action Database:
+  [`Link <http://tele-immersion.citris-uc.org/berkeley_mhad>`_]
+  
+* **UCF101 - Action Recognition Data Set** UCF101 is an action recognition data set of realistic action videos, collected from YouTube, having 101 action categories. This data set is an extension of UCF50 data set which has 50 action categories:
+  [`Link <http://crcv.ucf.edu/data/UCF101.php>`_]
+  
+* **THUMOS Dataset** A large dataset for action classification:
+  [`Link <http://crcv.ucf.edu/data/THUMOS.php>`_]
+  
+* **ActivityNet** A Large-Scale Video Benchmark for Human Activity Understanding:
+  [`Link <http://activity-net.org/>`_]
+
 
 
 ************
