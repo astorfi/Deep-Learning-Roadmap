@@ -146,6 +146,10 @@ Recurrent Networks
 Autoencoders
 -----------------------
 
+.. image:: _img/mainpage/Autoencoder_structure.png
+
+
+
 * **Extracting and composing robust features with denoising autoencoders** :
   [`Paper <https://dl.acm.org/citation.cfm?id=1390294>`_]
 
