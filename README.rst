@@ -723,6 +723,20 @@ Summarization
 ======================================
 Speech Technology
 ======================================
+
+* **TIMIT Acoustic-Phonetic Continuous Speech Corpus** The TIMIT corpus of read speech is designed to provide speech data for acoustic-phonetic studies and for the development and evaluation of automatic speech recognition systems:
+  [`Link <https://catalog.ldc.upenn.edu/ldc93s1>`_]
+  
+* **LibriSpeech** LibriSpeech is a corpus of approximately 1000 hours of 16kHz read English speech, prepared by Vassil Panayotov with the assistance of Daniel Povey:
+  [`Link <http://www.openslr.org/12/>`_]
+  
+* **VoxCeleb** A large scale audio-visual dataset:
+  [`Link <http://www.robots.ox.ac.uk/~vgg/data/voxceleb/>`_]
+  
+* **NIST Speaker Recognition**:
+  [`Link <https://www.nist.gov/itl/iad/mig/speaker-recognition>`_]
+
+
   
 
 
