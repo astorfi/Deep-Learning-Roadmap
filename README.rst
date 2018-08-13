@@ -561,10 +561,10 @@ Courses
   [`Link <https://www.coursera.org/learn/neural-networks-deep-learning>`_]
 
 * **Intro to Deep Learning** by Google:
-  [`https://www.udacity.com/course/deep-learning--ud730>`_]
+  [`Link <https://www.udacity.com/course/deep-learning--ud730>`_]
 
 * **NVIDIA Deep Learning Institute** by NVIDIA:
-  [`https://www.nvidia.com/en-us/deep-learning-ai/education/>`_]
+  [`Link <https://www.nvidia.com/en-us/deep-learning-ai/education/>`_]
 
 * **Convolutional Neural Networks for Visual Recognition** by Standford:
   [`Link <http://cs231n.stanford.edu/>`_]
@@ -617,7 +617,7 @@ Blogs
   [`Link <https://distill.pub/>`_]
 
 * **BAIR** Berkeley Artificial Inteliigent Research:
-  [`Link <http://bair.berkeley.edu/blog/`_]
+  [`Link <http://bair.berkeley.edu/blog/>`_]
 
 * **Sebastian Ruder's blog**:
   [`Link <http://ruder.io/>`_]
@@ -635,8 +635,8 @@ Tutorials
 
 .. image:: _img/mainpage/tutorial.png
 
-* **Understanding Natural Language with Deep Neural Networks Using Torch** by NVIDIA:
-  [`Link <https://devblogs.nvidia.com/understanding-natural-language-deep-neural-networks-using-torch/>`_]
+* **Deep Learning Tutorials**:
+  [`Link <http://deeplearning.net/tutorial/>`_]
 
 * **Deep Learning for NLP with Pytorch** by Pytorch:
   [`Link <https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html>`_]
