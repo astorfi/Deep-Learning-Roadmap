@@ -4,14 +4,23 @@ Courses
 
 .. image:: _img/mainpage/online.png
 
-* **Natural Language Processing with Deep Learning** by Stanford :
-  [`Link <http://web.stanford.edu/class/cs224n/>`_]
+* **Machine Learning** by Stanford on Coursera :
+  [`Link <https://www.coursera.org/learn/machine-learning>`_]
 
-* **Deep Natural Language Processing** by the University of Oxford:
-  [`Link <https://www.cs.ox.ac.uk/teaching/courses/2016-2017/dl/>`_]
+* **Neural Networks and Deep Learning** Specialization by Coursera:
+  [`Link <https://www.coursera.org/learn/neural-networks-deep-learning>`_]
 
-* **Natural Language Processing with Deep Learning in Python** by Udemy:
-  [`Link <https://www.udemy.com/natural-language-processing-with-deep-learning-in-python/?siteID=QhjctqYUCD0-KJsvUG2M8PW2kOmJ0nwFPQ&LSNPUBID=QhjctqYUCD0>`_]
+* **Intro to Deep Learning** by Google:
+  [`Link <https://www.udacity.com/course/deep-learning--ud730>`_]
 
-* **Natural Language Processing with Deep Learning** by Coursera:
-  [`Link <https://www.coursera.org/learn/language-processing>`_]
+* **NVIDIA Deep Learning Institute** by NVIDIA:
+  [`Link <https://www.nvidia.com/en-us/deep-learning-ai/education/>`_]
+
+* **Convolutional Neural Networks for Visual Recognition** by Standford:
+  [`Link <http://cs231n.stanford.edu/>`_]
+
+* **Deep Learning for Natural Language Processing** by Standford:
+  [`Link <http://cs224d.stanford.edu/>`_]
+
+* **Deep Learning** by fast.ai:
+  [`Link <http://www.fast.ai/>`_]
