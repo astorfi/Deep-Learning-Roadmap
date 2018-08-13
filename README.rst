@@ -412,6 +412,31 @@ Object Recognition
 Action Recognition
 --------------------
 
+* **Long-Term Recurrent Convolutional Networks for Visual Recognition and Description** :
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Donahue_Long-Term_Recurrent_Convolutional_2015_CVPR_paper.html>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **Learning Spatiotemporal Features With 3D Convolutional Networks** :
+  [`Paper <https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Tran_Learning_Spatiotemporal_Features_ICCV_2015_paper.html>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **Describing Videos by Exploiting Temporal Structure** :
+  [`Paper <https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Yao_Describing_Videos_by_ICCV_2015_paper.html>`_]
+
+  .. image:: _img/mainpage/progress-overall-60.png
+
+* **Convolutional Two-Stream Network Fusion for Video Action Recognition** :
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Feichtenhofer_Convolutional_Two-Stream_Network_CVPR_2016_paper.html>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **Temporal segment networks: Towards good practices for deep action recognition** :
+  [`Paper <https://link.springer.com/chapter/10.1007/978-3-319-46484-8_2>`_]
+
+  .. image:: _img/mainpage/progress-overall-60.png
+
 ----------------------------
 Caption Generation
 ----------------------------
