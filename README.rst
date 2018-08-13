@@ -566,6 +566,15 @@ Datasets
 Image
 ====================
 
+
+----------------------------
+General
+----------------------------
+
+* **MNIST** Handwritten digits:
+  [`Link <http://yann.lecun.com/exdb/mnist/>`_]
+
+
 ----------------------------
 Face
 ----------------------------
@@ -630,6 +639,13 @@ Action recognition
   
 * **ActivityNet** A Large-Scale Video Benchmark for Human Activity Understanding:
   [`Link <http://activity-net.org/>`_]
+  
+======================================
+Text and Natural Language Processing
+======================================
+
+
+  
 
 
 
