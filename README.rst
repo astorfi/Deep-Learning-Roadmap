@@ -441,10 +441,28 @@ Action Recognition
 Caption Generation
 ----------------------------
 
-* **Efficient Estimation of Word Representations in Vector Space** :
-  Two novel model architectures for computing continuous vector representations of words.
-  [`Paper link <https://arxiv.org/abs/1301.3781>`_ ,
-  `Official code implementation <https://code.google.com/archive/p/word2vec/>`_]
+* **Show, Attend and Tell: Neural Image Caption Generation with Visual Attention** :
+  [`Paper <http://proceedings.mlr.press/v37/xuc15.pdf>`_]
+
+  .. image:: _img/mainpage/progress-overall-100.png
+
+* **Mind's Eye: A Recurrent Visual Representation for Image Caption Generation** :
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Chen_Minds_Eye_A_2015_CVPR_paper.html>`_]
+
+  .. image:: _img/mainpage/progress-overall-40.png
+
+* **Generative Adversarial Text to Image Synthesis** :
+  [`Paper <http://proceedings.mlr.press/v48/reed16.pdf>`_]
+
+  .. image:: _img/mainpage/progress-overall-60.png
+
+* **Deep Visual-Semantic Alignments for Generating Image Descriptions** :
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Karpathy_Deep_Visual-Semantic_Alignments_2015_CVPR_paper.html>`_]
+
+  .. image:: _img/mainpage/progress-overall-80.png
+
+* **Show and Tell: A Neural Image Caption Generator** :
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Vinyals_Show_and_Tell_2015_CVPR_paper.html>`_]
 
   .. image:: _img/mainpage/progress-overall-100.png
 
