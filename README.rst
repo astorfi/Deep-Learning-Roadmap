@@ -117,7 +117,7 @@ Convolutional Networks
 Recurrent Networks
 -----------------------
 
-  .. image:: _img/mainpage/Recurrent_neural_network_unfold.png
+  .. image:: _img/mainpage/Recurrent_neural_network_unfold.svg
 
 
 .. For continuous lines, the lines must be start from the same locations.
