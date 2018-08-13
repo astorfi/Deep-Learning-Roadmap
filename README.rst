@@ -235,7 +235,7 @@ Core
 Optimization
 ---------------------
 
-  .. image:: _img/mainpage/Newton_optimization_vs_grad_descent.png
+.. image:: _img/mainpage/Newton_optimization_vs_grad_descent.svg
 
 .. ################################################################################
 .. For continuous lines, the lines must be start from the same locations.
