@@ -180,6 +180,8 @@ Autoencoders
 Generative Models
 -----------------------
 
+.. image:: _img/mainpage/generative.png
+
 * **Exploiting generative models discriminative classifiers** :
   [`Paper <http://papers.nips.cc/paper/1520-exploiting-generative-models-in-discriminative-classifiers.pdf>`_]
 
