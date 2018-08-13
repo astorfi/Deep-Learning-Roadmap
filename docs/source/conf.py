@@ -22,7 +22,7 @@ extensions = [
 ]
 templates_path = ['_templates']
 
-edit_on_github_project = 'astorfi/Deep-Learning-NLP'
+edit_on_github_project = 'astorfi/Deep-Learning-World'
 
 edit_on_github_branch = 'master'
 
@@ -32,7 +32,7 @@ source_suffix = ['.rst', '.md']
 # }
 
 master_doc = 'index'
-project = u'Deep-Learning-NLP'
+project = u'Deep-Learning-World'
 copyright = u'2018, Amirsina Torfi'
 author = u'Amirsina Torfi'
 version = '1.0'
@@ -45,11 +45,11 @@ pygments_style = 'sphinx'
 # }
 htmlhelp_basename = 'ReadTheDocsdoc'
 latex_documents = [
-    (master_doc, 'Deep-Learning-NLP.tex', u'Deep-Learning-NLP Documentation',
+    (master_doc, 'Deep-Learning-World.tex', u'Deep-Learning-World Documentation',
      u'Amirsina Torfi', 'manual'),
 ]
 man_pages = [
-    (master_doc, 'Deep-Learning-NLP', u'Deep-Learning-NLP Documentation',
+    (master_doc, 'Deep-Learning-World', u'Deep-Learning-World Documentation',
      [author], 1)
 ]
 exclude_patterns = [
@@ -72,13 +72,13 @@ html_theme_options = {
     'display_version': False,
 }
 
-github_url='https://github.com/astorfi/Deep-Learning-NLP'
+github_url='https://github.com/astorfi/Deep-Learning-World'
 
 html_context = {
 "display_github": True, # Add 'Edit on Github' link instead of 'View page source'
 "last_updated": True,
 "commit": False,
- 'github_url': 'https://github.com/astorfi/Deep-Learning-NLP'
+ 'github_url': 'https://github.com/astorfi/Deep-Learning-World'
 }
 
 
