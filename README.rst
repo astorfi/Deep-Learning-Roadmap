@@ -339,7 +339,7 @@ Image Recognition
   .. image:: _img/mainpage/progress-overall-100.png
 
 * **Very Deep Convolutional Networks for Large-Scale Image Recognition** :
-[`Paper <https://arxiv.org/abs/1409.1556>`_]
+  [`Paper <https://arxiv.org/abs/1409.1556>`_]
 
 .. image:: _img/mainpage/progress-overall-100.png
 
@@ -373,7 +373,7 @@ Object Recognition
 --------------------
 
 * **ImageNet Classification with Deep Convolutional Neural Networks** :
-  [`Paper <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks`_]
+  [`Paper <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks>`_]
 
   .. image:: _img/mainpage/progress-overall-100.png
 
@@ -383,7 +383,7 @@ Object Recognition
   .. image:: _img/mainpage/progress-overall-60.png
 
 * **Scalable Object Detection using Deep Neural Networks** :
-  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Erhan_Scalable_Object_Detection_2014_CVPR_paper.html`_]
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Erhan_Scalable_Object_Detection_2014_CVPR_paper.html>`_]
 
   .. image:: _img/mainpage/progress-overall-80.png
 
@@ -456,7 +456,7 @@ Caption Generation
 
   .. image:: _img/mainpage/progress-overall-60.png
 
-* **Deep Visual-Semantic Alignments for Generating Image Descriptions** :
+* **Deep Visual-Semantic Al60ignments for Generating Image Descriptions** :
   [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Karpathy_Deep_Visual-Semantic_Alignments_2015_CVPR_paper.html>`_]
 
   .. image:: _img/mainpage/progress-overall-80.png
