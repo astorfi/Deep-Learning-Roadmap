@@ -768,6 +768,11 @@ Courses
 * **Deep Learning** by fast.ai:
   [`Link <http://www.fast.ai/>`_]
 
+* **Course on Deep Learning for Visual Computing** by IITKGP:
+  [`Link <https://www.youtube.com/playlist?list=PLuv3GM6-gsE1Biyakccxb3FAn4wBLyfWf>`_]
+
+  
+
 
 ************
 Books
