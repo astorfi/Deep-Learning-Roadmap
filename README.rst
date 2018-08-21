@@ -794,6 +794,14 @@ Books
 
 
 ************
+Journals
+************
+
+* **Distill journal**:
+  [`Link <https://distill.pub/>`_]
+
+
+************
 Blogs
 ************
 
@@ -810,9 +818,6 @@ Blogs
 
 * **WILDML**:
   [`Link <http://www.wildml.com/about/>`_]
-
-* **Distill blog**:
-  [`Link <https://distill.pub/>`_]
 
 * **BAIR** Berkeley Artificial Inteliigent Research:
   [`Link <http://bair.berkeley.edu/blog/>`_]
