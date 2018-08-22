@@ -759,10 +759,10 @@ Courses
 * **NVIDIA Deep Learning Institute** by NVIDIA:
   [`Link <https://www.nvidia.com/en-us/deep-learning-ai/education/>`_]
 
-* **Convolutional Neural Networks for Visual Recognition** by Standford:
+* **Convolutional Neural Networks for Visual Recognition** by Stanford:
   [`Link <http://cs231n.stanford.edu/>`_]
 
-* **Deep Learning for Natural Language Processing** by Standford:
+* **Deep Learning for Natural Language Processing** by Stanford:
   [`Link <http://cs224d.stanford.edu/>`_]
 
 * **Deep Learning** by fast.ai:
