@@ -19,7 +19,7 @@ Blogs
 * **Distill blog**:
   [`Link <https://distill.pub/>`_]
 
-* **BAIR** Berkeley Artificial Inteliigent Research:
+* **BAIR** Berkeley Artificial Intelligent Research:
   [`Link <http://bair.berkeley.edu/blog/>`_]
 
 * **Sebastian Ruder's blog**:
