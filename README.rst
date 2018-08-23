@@ -597,6 +597,8 @@ Face
 * **IMDB-WIKI** 500k+ face images with age and gender labels:
   [`Link <https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/>`_]
   
+* **FDDB** Face Detection Data Set and Benchmark (FDDB):  
+  [`Link <http://vis-www.cs.umass.edu/fddb/>`_]
 
 ----------------------------
 Object Recognition
