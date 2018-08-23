@@ -258,7 +258,7 @@ Reinforcement Learning
   .. image:: _img/mainpage/progress-overall-60.png
 
 * **Continuous control with deep reinforcement learning** :
-  [`Paper <https://arxiv.org/abs/1509.02971`_]
+  [`Paper <https://arxiv.org/abs/1509.02971>`_]
 
   .. image:: _img/mainpage/progress-overall-80.png
 
