@@ -581,13 +581,13 @@ Face
 
 * **Face Recognition Technology (FERET)** The goal of the FERET program was to develop automatic face recognition capabilities that could be employed to assist security, intelligence, and law enforcement personnel in the performance of their duties:
   [`Link <https://www.nist.gov/programs-projects/face-recognition-technology-feret>`_]
-  
+
 * **The CMU Pose, Illumination, and Expression (PIE) Database of Human Faces** Between October and December 2000 we collected a database of 41,368 images of 68 people:
   [`Link <https://www.ri.cmu.edu/publications/the-cmu-pose-illumination-and-expression-pie-database-of-human-faces/>`_]
-  
+
 * **YouTube Faces DB** The data set contains 3,425 videos of 1,595 different people. All the videos were downloaded from YouTube. An average of 2.15 videos are available for each subject:
   [`Link <https://www.cs.tau.ac.il/~wolf/ytfaces/>`_]
-  
+
 * **Grammatical Facial Expressions Data Set** Developed to assist the the automated analysis of facial expressions:
   [`Link <https://archive.ics.uci.edu/ml/datasets/Grammatical+Facial+Expressions>`_]
 
@@ -596,8 +596,8 @@ Face
 
 * **IMDB-WIKI** 500k+ face images with age and gender labels:
   [`Link <https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/>`_]
-  
-* **FDDB** Face Detection Data Set and Benchmark (FDDB):  
+
+* **FDDB** Face Detection Data Set and Benchmark (FDDB):
   [`Link <http://vis-www.cs.umass.edu/fddb/>`_]
 
 ----------------------------
@@ -606,22 +606,22 @@ Object Recognition
 
 * **COCO** Microsoft COCO: Common Objects in Context:
   [`Link <http://cocodataset.org/#home>`_]
-  
+
 * **ImageNet** The famous ImageNet dataset:
   [`Link <http://www.image-net.org/>`_]
-  
+
 * **Open Images Dataset** Open Images is a dataset of ~9 million images that have been annotated with image-level labels and object bounding boxes:
   [`Link <https://storage.googleapis.com/openimages/web/index.html>`_]
-  
+
 * **Caltech-256 Object Category Dataset** A large dataset object classification:
   [`Link <https://authors.library.caltech.edu/7694/>`_]
-  
+
 * **Pascal VOC dataset** A large dataset for classification tasks:
   [`Link <http://host.robots.ox.ac.uk/pascal/VOC/>`_]
 
 * **CIFAR 10 / CIFAR 100** The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes. CIFAR-100 is similar to CIFAR-10 but it has 100 classes containing 600 images each:
   [`Link <https://www.cs.toronto.edu/~kriz/cifar.html>`_]
-  
+
 
 ----------------------------
 Action recognition
@@ -629,19 +629,19 @@ Action recognition
 
 * **HMDB** a large human motion database:
   [`Link <http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/>`_]
-  
+
 * **MHAD** Berkeley Multimodal Human Action Database:
   [`Link <http://tele-immersion.citris-uc.org/berkeley_mhad>`_]
-  
+
 * **UCF101 - Action Recognition Data Set** UCF101 is an action recognition data set of realistic action videos, collected from YouTube, having 101 action categories. This data set is an extension of UCF50 data set which has 50 action categories:
   [`Link <http://crcv.ucf.edu/data/UCF101.php>`_]
-  
+
 * **THUMOS Dataset** A large dataset for action classification:
   [`Link <http://crcv.ucf.edu/data/THUMOS.php>`_]
-  
+
 * **ActivityNet** A Large-Scale Video Benchmark for Human Activity Understanding:
   [`Link <http://activity-net.org/>`_]
-  
+
 ======================================
 Text and Natural Language Processing
 ======================================
@@ -728,18 +728,18 @@ Speech Technology
 
 * **TIMIT Acoustic-Phonetic Continuous Speech Corpus** The TIMIT corpus of read speech is designed to provide speech data for acoustic-phonetic studies and for the development and evaluation of automatic speech recognition systems:
   [`Link <https://catalog.ldc.upenn.edu/ldc93s1>`_]
-  
+
 * **LibriSpeech** LibriSpeech is a corpus of approximately 1000 hours of 16kHz read English speech, prepared by Vassil Panayotov with the assistance of Daniel Povey:
   [`Link <http://www.openslr.org/12/>`_]
-  
+
 * **VoxCeleb** A large scale audio-visual dataset:
   [`Link <http://www.robots.ox.ac.uk/~vgg/data/voxceleb/>`_]
-  
+
 * **NIST Speaker Recognition**:
   [`Link <https://www.nist.gov/itl/iad/mig/speaker-recognition>`_]
 
 
-  
+
 
 
 
@@ -773,7 +773,7 @@ Courses
 * **Course on Deep Learning for Visual Computing** by IITKGP:
   [`Link <https://www.youtube.com/playlist?list=PLuv3GM6-gsE1Biyakccxb3FAn4wBLyfWf>`_]
 
-  
+
 
 
 ************
@@ -843,6 +843,41 @@ Tutorials
 
 * **Deep Learning for Natural Language Processing: Tutorials with Jupyter Notebooks** by Jon Krohn:
   [`Link <https://insights.untapt.com/deep-learning-for-natural-language-processing-tutorials-with-jupyter-notebooks-ad67f336ce3f>`_]
+
+
+************
+Frameworks
+************
+
+* **Tensorflow**:
+  [`Link <https://www.tensorflow.org/>`_]
+
+* **Pytorch**:
+  [`Link <https://pytorch.org/>`_]
+
+* **CNTK**:
+  [`Link <https://docs.microsoft.com/en-us/cognitive-toolkit/>`_]
+
+* **MatConvNet**:
+  [`Link <http://www.vlfeat.org/matconvnet/>`_]
+
+* **Keras**:
+  [`Link <https://keras.io/>`_]
+
+* **Caffe**:
+  [`Link <http://caffe.berkeleyvision.org/>`_]
+
+* **Theano**:
+  [`Link <http://www.deeplearning.net/software/theano/>`_]
+
+* **CuDNN**:
+  [`Link <https://developer.nvidia.com/cudnn>`_]
+
+* **Torch**:
+  [`Link <https://github.com/torch/torch7>`_]
+
+* **Deeplearning4j**:
+  [`Link <https://deeplearning4j.org/>`_]
 
 
 ************
