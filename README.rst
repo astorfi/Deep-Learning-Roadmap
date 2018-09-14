@@ -83,7 +83,7 @@ Convolutional Networks
 * **Imagenet classification with deep convolutional neural networks** :
   [`Paper <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks>`_]
 
-  .. image:: _img/mainpage/star_1.png
+  .. image:: _img/mainpage/star_2.png
 
 * **Convolutional Neural Networks for Sentence Classification** :
   [`Paper <https://arxiv.org/abs/1408.5882>`_]
