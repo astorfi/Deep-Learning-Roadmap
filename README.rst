@@ -83,33 +83,33 @@ Convolutional Networks
 * **Imagenet classification with deep convolutional neural networks** :
   [`Paper <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks>`_]
 
-  .. image:: _img/mainpage/star_2.png
+  .. image:: _img/mainpage/star_5.png
 
 * **Convolutional Neural Networks for Sentence Classification** :
   [`Paper <https://arxiv.org/abs/1408.5882>`_]
 
-  .. image:: _img/mainpage/progress-overall-80.png
+  .. image:: _img/mainpage/star_4.png
 
 * **Large-scale Video Classification with Convolutional Neural Networks** :
   [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Karpathy_Large-scale_Video_Classification_2014_CVPR_paper.html>`_]
 
-  .. image:: _img/mainpage/progress-overall-80.png
+  .. image:: _img/mainpage/star_4.png
 
 * **Learning and Transferring Mid-Level Image Representations using Convolutional Neural Networks** :
   [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Oquab_Learning_and_Transferring_2014_CVPR_paper.html>`_]
 
-  .. image:: _img/mainpage/progress-overall-100.png
+  .. image:: _img/mainpage/star_5.png
 
 
 * **Deep convolutional neural networks for LVCSR** :
   [`Paper <https://ieeexplore.ieee.org/abstract/document/6639347/&hl=zh-CN&sa=T&oi=gsb&ct=res&cd=0&ei=KknXWYbGFMbFjwSsyICADQ&scisig=AAGBfm2F0Zlu0ciUwadzshNNm80IQQhuhA>`_]
 
-  .. image:: _img/mainpage/progress-overall-60.png
+  .. image:: _img/mainpage/star_3.png
 
 * **Face recognition: a convolutional neural-network approach** :
   [`Paper <https://ieeexplore.ieee.org/abstract/document/554195/>`_]
 
-  .. image:: _img/mainpage/progress-overall-100.png
+  .. image:: _img/mainpage/star_5.png
 
 
 
