@@ -467,7 +467,7 @@ Caption Generation
 
   .. image:: _img/mainpage/star_3.png
 
-* **Deep Visual-Semantic Al60ignments for Generating Image Descriptions** :
+* **Deep Visual-Semantic Alignments for Generating Image Descriptions** :
   [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Karpathy_Deep_Visual-Semantic_Alignments_2015_CVPR_paper.html>`_]
 
   .. image:: _img/mainpage/star_4.png
