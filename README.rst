@@ -758,6 +758,9 @@ Courses
 * **Intro to Deep Learning** by Google:
   [`Link <https://www.udacity.com/course/deep-learning--ud730>`_]
 
+* **Introduction to Deep Learning** by CMU:
+  [`Link <http://deeplearning.cs.cmu.edu/>`_]
+
 * **NVIDIA Deep Learning Institute** by NVIDIA:
   [`Link <https://www.nvidia.com/en-us/deep-learning-ai/education/>`_]
 
