@@ -92,17 +92,17 @@ Convolutional Networks
 
 .. For continuous lines, the lines must be start from the same locations.
 * **Imagenet classification with deep convolutional neural networks** :
-  [`Paper <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks>`_]
+  [`Paper <http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks>`_][`Code <https://github.com/dontfollowmeimcrazy/imagenet>`_]
 
   .. image:: _img/mainpage/star_5.png
 
 * **Convolutional Neural Networks for Sentence Classification** :
-  [`Paper <https://arxiv.org/abs/1408.5882>`_]
+  [`Paper <https://arxiv.org/abs/1408.5882>`_][`Code <https://github.com/yoonkim/CNN_sentence>`_]
 
   .. image:: _img/mainpage/star_4.png
 
 * **Large-scale Video Classification with Convolutional Neural Networks** :
-  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Karpathy_Large-scale_Video_Classification_2014_CVPR_paper.html>`_]
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Karpathy_Large-scale_Video_Classification_2014_CVPR_paper.html>`_][`Project Page <https://cs.stanford.edu/people/karpathy/deepvideo/>`_]
 
   .. image:: _img/mainpage/star_4.png
 
@@ -114,7 +114,7 @@ Convolutional Networks
 
 * **Deep convolutional neural networks for LVCSR** :
   [`Paper <https://ieeexplore.ieee.org/abstract/document/6639347/&hl=zh-CN&sa=T&oi=gsb&ct=res&cd=0&ei=KknXWYbGFMbFjwSsyICADQ&scisig=AAGBfm2F0Zlu0ciUwadzshNNm80IQQhuhA>`_]
-
+  
   .. image:: _img/mainpage/star_3.png
 
 * **Face recognition: a convolutional neural-network approach** :
@@ -133,18 +133,19 @@ Recurrent Networks
 
 .. For continuous lines, the lines must be start from the same locations.
 * **An empirical exploration of recurrent network architectures** :
-  [`Paper <http://proceedings.mlr.press/v37/jozefowicz15.pdf?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=revue>`_]
+  [`Paper <http://proceedings.mlr.press/v37/jozefowicz15.pdf?utm_campaign=Revue%20newsletter&utm_medium=Newsletter&utm_source=revue>`_][`Code <https://github.com/debajyotidatta/RecurrentArchitectures>`_]
+
 
   .. image:: _img/mainpage/star_4.png
 
 * **LSTM: A search space odyssey** :
-  [`Paper <https://ieeexplore.ieee.org/abstract/document/7508408/>`_]
+  [`Paper <https://ieeexplore.ieee.org/abstract/document/7508408/>`_][`Code <https://github.com/fomorians/lstm-odyssey>`_]
 
   .. image:: _img/mainpage/star_3.png
 
 
 * **On the difficulty of training recurrent neural networks** :
-  [`Paper <http://proceedings.mlr.press/v28/pascanu13.pdf>`_]
+  [`Paper <http://proceedings.mlr.press/v28/pascanu13.pdf>`_][`Code <https://github.com/pascanur/trainingRNNs>`_]
 
   .. image:: _img/mainpage/star_5.png
 
@@ -159,20 +160,18 @@ Autoencoders
 
 .. image:: _img/mainpage/Autoencoder_structure.png
 
-
-
 * **Extracting and composing robust features with denoising autoencoders** :
   [`Paper <https://dl.acm.org/citation.cfm?id=1390294>`_]
 
   .. image:: _img/mainpage/star_5.png
 
 * **Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion** :
-  [`Paper <http://www.jmlr.org/papers/v11/vincent10a.html>`_]
+  [`Paper <http://www.jmlr.org/papers/v11/vincent10a.html>`_][`Code <https://github.com/rajarsheem/libsdae-autoencoder-tensorflow>`_]
 
   .. image:: _img/mainpage/star_5.png
 
 * **Adversarial Autoencoders** :
-  [`Paper <https://arxiv.org/abs/1511.05644>`_]
+  [`Paper <https://arxiv.org/abs/1511.05644>`_][`Code <https://github.com/conan7882/adversarial-autoencoders>`_]
 
   .. image:: _img/mainpage/star_3.png
 
@@ -182,7 +181,7 @@ Autoencoders
   .. image:: _img/mainpage/star_4.png
 
 * **Reducing the Dimensionality of Data with Neural Networks** :
-  [`Paper <http://science.sciencemag.org/content/313/5786/504>`_]
+  [`Paper <http://science.sciencemag.org/content/313/5786/504>`_][`Code <https://github.com/jordn/autoencoder>`_]
 
   .. image:: _img/mainpage/star_5.png
 
@@ -199,18 +198,23 @@ Generative Models
   .. image:: _img/mainpage/star_4.png
 
 * **Semi-supervised Learning with Deep Generative Models** :
-  [`Paper <http://papers.nips.cc/paper/5352-semi-supervised-learning-with-deep-generative-models>`_]
+  [`Paper <http://papers.nips.cc/paper/5352-semi-supervised-learning-with-deep-generative-models>`_][`Code <https://github.com/wohlert/semi-supervised-pytorch>`_]
 
   .. image:: _img/mainpage/star_4.png
 
 
 * **Generative Adversarial Nets** :
-  [`Paper <http://papers.nips.cc/paper/5423-generative-adversarial-nets>`_]
+  [`Paper <http://papers.nips.cc/paper/5423-generative-adversarial-nets>`_][`Code <https://github.com/goodfeli/adversarial>`_]
 
   .. image:: _img/mainpage/star_5.png
 
 * **Generalized Denoising Auto-Encoders as Generative Models** :
   [`Paper <http://papers.nips.cc/paper/5023-generalized-denoising-auto-encoders-as-generative-models>`_]
+
+  .. image:: _img/mainpage/star_5.png
+  
+* **Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks** :
+  [`Paper <https://arxiv.org/abs/1511.06434>`_][`Code <https://github.com/carpedm20/DCGAN-tensorflow>`_]
 
   .. image:: _img/mainpage/star_5.png
 
@@ -278,7 +282,7 @@ Representation Learning
 ------------------------
 
 * **Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks** :
-  [`Paper <https://arxiv.org/abs/1511.06434>`_]
+  [`Paper <https://arxiv.org/abs/1511.06434>`_][`Code <https://github.com/Newmu/dcgan_code>`_]
 
   .. image:: _img/mainpage/star_5.png
 
@@ -288,7 +292,7 @@ Representation Learning
   .. image:: _img/mainpage/star_4.png
 
 * **InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets** :
-  [`Paper <http://papers.nips.cc/paper/6399-infogan-interpretable-representation>`_]
+  [`Paper <http://papers.nips.cc/paper/6399-infogan-interpretable-representation>`_][`Code <https://github.com/openai/InfoGAN>`_]
 
   .. image:: _img/mainpage/star_3.png
 
@@ -308,12 +312,12 @@ Understanding and Transfer Learning
   .. image:: _img/mainpage/star_4.png
 
 * **DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition** :
-  [`Paper <http://proceedings.mlr.press/v32/donahue14.pdf>`_]
+  [`Paper <http://proceedings.mlr.press/v32/donahue14.pdf>`_][
 
   .. image:: _img/mainpage/star_5.png
 
 * **How transferable are features in deep neural networks?** :
-  [`Paper <http://papers.nips.cc/paper/5347-how-transferable-are-features-in-deep-n%E2%80%A6>`_]
+  [`Paper <http://papers.nips.cc/paper/5347-how-transferable-are-features-in-deep-n%E2%80%A6>`_][`Code <https://github.com/yosinski/convnet_transfer>`_]
 
   .. image:: _img/mainpage/star_5.png
 
@@ -322,27 +326,27 @@ Reinforcement Learning
 -----------------------
 
 * **Human-level control through deep reinforcement learning** :
-  [`Paper <https://www.nature.com/articles/nature14236/>`_]
+  [`Paper <https://www.nature.com/articles/nature14236/>`_][`Code <https://github.com/devsisters/DQN-tensorflow>`_]
 
   .. image:: _img/mainpage/star_5.png
 
 * **Playing Atari with Deep Reinforcement Learning** :
-  [`Paper <https://arxiv.org/abs/1312.5602>`_]
+  [`Paper <https://arxiv.org/abs/1312.5602>`_][`Code <https://github.com/carpedm20/deep-rl-tensorflow>`_]
 
   .. image:: _img/mainpage/star_3.png
 
 * **Continuous control with deep reinforcement learning** :
-  [`Paper <https://arxiv.org/abs/1509.02971`_]
+  [`Paper <https://arxiv.org/abs/1509.02971>`_][`Code <https://github.com/stevenpjg/ddpg-aigym>`_]
 
   .. image:: _img/mainpage/star_4.png
 
 * **Deep Reinforcement Learning with Double Q-Learning** :
-  [`Paper <http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12389/11847>`_]
+  [`Paper <http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/12389/11847>`_][`Code <https://github.com/carpedm20/deep-rl-tensorflow>`_]
 
   .. image:: _img/mainpage/star_3.png
 
 * **Dueling Network Architectures for Deep Reinforcement Learning** :
-  [`Paper <https://arxiv.org/abs/1511.06581>`_]
+  [`Paper <https://arxiv.org/abs/1511.06581>`_][`Code <https://github.com/yoosan/deeprl>`_]
 
   .. image:: _img/mainpage/star_3.png
 
@@ -356,7 +360,7 @@ Image Recognition
 --------------------
 
 * **Deep Residual Learning for Image Recognition** :
-  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html>`_]
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html>`_][`Code <https://github.com/gcr/torch-residual-networks>`_]
 
   .. image:: _img/mainpage/star_5.png
 
@@ -376,7 +380,7 @@ Image Recognition
   .. image:: _img/mainpage/star_4.png
 
 * **Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps** :
-  [`Paper <https://arxiv.org/abs/1312.6034>`_]
+  [`Paper <https://arxiv.org/abs/1312.6034>`_][`Code <https://github.com/artvandelay/Deep_Inside_Convolutional_Networks>`_]
 
   .. image:: _img/mainpage/star_3.png
 
@@ -386,9 +390,14 @@ Image Recognition
   .. image:: _img/mainpage/star_4.png
 
 * **Long-Term Recurrent Convolutional Networks for Visual Recognition and Description** :
-  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Donahue_Long-Term_Recurrent_Convolutional_2015_CVPR_paper.html>`_]
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Donahue_Long-Term_Recurrent_Convolutional_2015_CVPR_paper.html>`_][`Code <https://github.com/JaggerYoung/LRCN-for-Activity-Recognition>`_]
 
   .. image:: _img/mainpage/star_5.png
+
+* **3D Convolutional Neural Networks for Cross Audio-Visual Matching Recognition** :
+  [`Paper <https://ieeexplore.ieee.org/document/8063416>`_][`Code <https://github.com/astorfi/lip-reading-deeplearning>`_]
+
+  .. image:: _img/mainpage/star_4.png
 
 --------------------
 Object Recognition
@@ -410,12 +419,12 @@ Object Recognition
   .. image:: _img/mainpage/star_4.png
 
 * **Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks** :
-  [`Paper <http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks>`_]
+  [`Paper <http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks>`_][`Code <https://github.com/rbgirshick/py-faster-rcnn>`_]
 
   .. image:: _img/mainpage/star_4.png
 
 * **OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks** :
-  [`Paper <https://arxiv.org/abs/1312.6229>`_]
+  [`Paper <https://arxiv.org/abs/1312.6229>`_][`Code <https://github.com/sermanet/OverFeat>`_]
 
   .. image:: _img/mainpage/star_5.png
 
@@ -440,22 +449,22 @@ Action Recognition
   .. image:: _img/mainpage/star_5.png
 
 * **Learning Spatiotemporal Features With 3D Convolutional Networks** :
-  [`Paper <https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Tran_Learning_Spatiotemporal_Features_ICCV_2015_paper.html>`_]
+  [`Paper <https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Tran_Learning_Spatiotemporal_Features_ICCV_2015_paper.html>`_][`Code <https://github.com/DavideA/c3d-pytorch>`_]
 
   .. image:: _img/mainpage/star_5.png
 
 * **Describing Videos by Exploiting Temporal Structure** :
-  [`Paper <https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Yao_Describing_Videos_by_ICCV_2015_paper.html>`_]
+  [`Paper <https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Yao_Describing_Videos_by_ICCV_2015_paper.html>`_][`Code <https://github.com/tsenghungchen/SA-tensorflow>`_]
 
   .. image:: _img/mainpage/star_3.png
 
 * **Convolutional Two-Stream Network Fusion for Video Action Recognition** :
-  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Feichtenhofer_Convolutional_Two-Stream_Network_CVPR_2016_paper.html>`_]
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Feichtenhofer_Convolutional_Two-Stream_Network_CVPR_2016_paper.html>`_][`Code <https://github.com/feichtenhofer/twostreamfusion>`_]
 
   .. image:: _img/mainpage/star_4.png
 
 * **Temporal segment networks: Towards good practices for deep action recognition** :
-  [`Paper <https://link.springer.com/chapter/10.1007/978-3-319-46484-8_2>`_]
+  [`Paper <https://link.springer.com/chapter/10.1007/978-3-319-46484-8_2>`_][`Code <https://github.com/yjxiong/temporal-segment-networks>`_]
 
   .. image:: _img/mainpage/star_3.png
 
@@ -464,7 +473,7 @@ Caption Generation
 ----------------------------
 
 * **Show, Attend and Tell: Neural Image Caption Generation with Visual Attention** :
-  [`Paper <http://proceedings.mlr.press/v37/xuc15.pdf>`_]
+  [`Paper <http://proceedings.mlr.press/v37/xuc15.pdf>`_][`Code <https://github.com/yunjey/show-attend-and-tell>`_]
 
   .. image:: _img/mainpage/star_5.png
 
@@ -474,17 +483,17 @@ Caption Generation
   .. image:: _img/mainpage/star_2.png
 
 * **Generative Adversarial Text to Image Synthesis** :
-  [`Paper <http://proceedings.mlr.press/v48/reed16.pdf>`_]
+  [`Paper <http://proceedings.mlr.press/v48/reed16.pdf>`_][`Code <https://github.com/zsdonghao/text-to-image>`_]
 
   .. image:: _img/mainpage/star_3.png
 
 * **Deep Visual-Semantic Al60ignments for Generating Image Descriptions** :
-  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Karpathy_Deep_Visual-Semantic_Alignments_2015_CVPR_paper.html>`_]
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Karpathy_Deep_Visual-Semantic_Alignments_2015_CVPR_paper.html>`_][`Code <https://github.com/jonkuo/Deep-Learning-Image-Captioning>`_]
 
   .. image:: _img/mainpage/star_4.png
 
 * **Show and Tell: A Neural Image Caption Generator** :
-  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Vinyals_Show_and_Tell_2015_CVPR_paper.html>`_]
+  [`Paper <https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Vinyals_Show_and_Tell_2015_CVPR_paper.html>`_][`Code <https://github.com/DeepRNN/image_captioning>`_]
 
   .. image:: _img/mainpage/star_5.png
 
@@ -494,37 +503,37 @@ Natural Language Processing
 ----------------------------
 
 * **Distributed Representations of Words and Phrases and their Compositionality** :
-  [`Paper <http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf>`_]
+  [`Paper <http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf>`_][`Code <https://code.google.com/archive/p/word2vec/>`_]
 
   .. image:: _img/mainpage/star_5.png
 
 * **Efficient Estimation of Word Representations in Vector Space** :
-  [`Paper <https://arxiv.org/pdf/1301.3781.pdf>`_]
+  [`Paper <https://arxiv.org/pdf/1301.3781.pdf>`_][`Code <https://code.google.com/archive/p/word2vec/>`_]
 
   .. image:: _img/mainpage/star_4.png
 
 * **Sequence to Sequence Learning with Neural Networks** :
-  [`Paper <https://arxiv.org/pdf/1409.3215.pdf>`_]
+  [`Paper <https://arxiv.org/pdf/1409.3215.pdf>`_][`Code <https://github.com/farizrahman4u/seq2seq>`_]
 
   .. image:: _img/mainpage/star_5.png
 
 * **Neural Machine Translation by Jointly Learning to Align and Translate** :
-  [`Paper <https://arxiv.org/pdf/1409.0473.pdf>`_]
+  [`Paper <https://arxiv.org/pdf/1409.0473.pdf>`_][`Code <https://github.com/tensorflow/nmt>`_]
 
   .. image:: _img/mainpage/star_4.png
 
 * **Get To The Point: Summarization with Pointer-Generator Networks** :
-  [`Paper <https://arxiv.org/abs/1704.04368>`_]
+  [`Paper <https://arxiv.org/abs/1704.04368>`_][`Code <https://github.com/abisee/pointer-generator>`_]
 
   .. image:: _img/mainpage/star_3.png
 
 * **Attention Is All You Need** :
-  [`Paper <https://arxiv.org/abs/1706.03762>`_]
+  [`Paper <https://arxiv.org/abs/1706.03762>`_][`Code <https://github.com/jadore801120/attention-is-all-you-need-pytorch>`_]
 
   .. image:: _img/mainpage/star_4.png
 
 * **Convolutional Neural Networks for Sentence Classification** :
-  [`Paper <https://arxiv.org/abs/1408.5882>`_]
+  [`Paper <https://arxiv.org/abs/1408.5882>`_][`Code <https://github.com/yoonkim/CNN_sentence>`_]
 
   .. image:: _img/mainpage/star_4.png
 
@@ -554,19 +563,20 @@ Speech Technology
   .. image:: _img/mainpage/star_3.png
 
 * **Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin** :
-  [`Paper <http://proceedings.mlr.press/v48/amodei16.html>`_]
-
-  .. image:: _img/mainpage/star_3.png
-
-* **Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin** :
-  [`Paper <http://proceedings.mlr.press/v48/amodei16.html>`_]
+  [`Paper <http://proceedings.mlr.press/v48/amodei16.html>`_][`Code <https://github.com/PaddlePaddle/DeepSpeech>`_]
 
   .. image:: _img/mainpage/star_4.png
 
 * **A novel scheme for speaker recognition using a phonetically-aware deep neural network** :
-  [`Paper <https://ieeexplore.ieee.org/abstract/document/6853887/>`_]
+  [`Paper <https://ieeexplore.ieee.org/abstract/document/6853887/>`_][`Code <>`_]
 
   .. image:: _img/mainpage/star_3.png
+ 
+* **Text-Independent Speaker Verification Using 3D Convolutional Neural Networks** :
+  [`Paper <https://arxiv.org/abs/1705.09422>`_][`Code <https://github.com/astorfi/3D-convolutional-speaker-recognition>`_]
+
+  .. image:: _img/mainpage/star_4.png
+
 
 
 ************
