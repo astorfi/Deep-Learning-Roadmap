@@ -22,7 +22,7 @@ extensions = [
 ]
 templates_path = ['_templates']
 
-edit_on_github_project = 'astorfi/Deep-Learning-World'
+edit_on_github_project = 'astorfi/Deep-Learning-Roadmap'
 
 edit_on_github_branch = 'master'
 
@@ -32,8 +32,8 @@ source_suffix = ['.rst', '.md']
 # }
 
 master_doc = 'index'
-project = u'Deep-Learning-World'
-copyright = u'2018, Amirsina Torfi'
+project = u'Deep-Learning-Roadmap'
+copyright = u'2019, Amirsina Torfi'
 author = u'Amirsina Torfi'
 version = '1.0'
 release = '1.0'
@@ -45,11 +45,11 @@ pygments_style = 'sphinx'
 # }
 htmlhelp_basename = 'ReadTheDocsdoc'
 latex_documents = [
-    (master_doc, 'Deep-Learning-World.tex', u'Deep-Learning-World Documentation',
+    (master_doc, 'Deep-Learning-Roadmap.tex', u'Deep-Learning-Roadmap Documentation',
      u'Amirsina Torfi', 'manual'),
 ]
 man_pages = [
-    (master_doc, 'Deep-Learning-World', u'Deep-Learning-World Documentation',
+    (master_doc, 'Deep-Learning-Roadmap', u'Deep-Learning-Roadmap Documentation',
      [author], 1)
 ]
 exclude_patterns = [
@@ -72,13 +72,13 @@ html_theme_options = {
     'display_version': False,
 }
 
-github_url='https://github.com/astorfi/Deep-Learning-World'
+github_url='https://github.com/astorfi/Deep-Learning-Roadmap'
 
 html_context = {
 "display_github": True, # Add 'Edit on Github' link instead of 'View page source'
 "last_updated": True,
 "commit": False,
- 'github_url': 'https://github.com/astorfi/Deep-Learning-World'
+ 'github_url': 'https://github.com/astorfi/Deep-Learning-Roadmap'
 }
 
 
