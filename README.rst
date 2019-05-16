@@ -1,12 +1,7 @@
 .. image:: _img/mainpage/logo.gif
 
-.. image:: _img/mainpage/follow-twitter.gif
-   :height: 100px
-   :width: 200 px
-   :scale: 50 %
-   :alt: alternate text
-   :align: right
-   :target: https://twitter.com/amirsinatorfi
+.. figure:: _img/mainpage/subscribe.gif
+  :target: https://machinelearningmindset.com/subscription/
 
 
 ###################################################
