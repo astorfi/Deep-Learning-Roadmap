@@ -2,6 +2,25 @@
 
 .. figure:: _img/mainpage/subscribe.gif
   :target: https://machinelearningmindset.com/subscription/
+  
+ 
+###################################################
+Slack Group
+###################################################
+
+.. raw:: html
+
+   <div align="center">
+
+.. raw:: html
+
+ <a href="https://www.machinelearningmindset.com/slack-group/" target="_blank">
+  <img width="1033" height="350" align="center" src="https://github.com/machinelearningmindset/TensorFlow-Course/blob/master/_img/0-welcome/joinslack.png"/>
+ </a>
+
+.. raw:: html
+
+   </div>
 
 
 ###################################################
