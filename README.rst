@@ -917,6 +917,8 @@ Frameworks
 * **Deeplearning4j**:
   [`Link <https://deeplearning4j.org/>`_]
 
+* **Apache SINGA**:
+  [`Link <https://singa.apache.org/>`_]
 
 ************
 Contributing
