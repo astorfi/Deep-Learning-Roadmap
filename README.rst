@@ -831,6 +831,9 @@ Books
 
 * **Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems**:
   [`Link <https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291/ref=as_li_ss_tl?ie=UTF8&qid=1519989725&sr=1-2-ent&linkCode=sl1&tag=trndingcom-20&linkId=71938c9398940c7b0a811dc1cfef7cc3>`_]
+  
+ * **Machine Learning Algorithms in Depth**:
+  [`Link <https://www.manning.com/books/machine-learning-algorithms-in-depth>`_]
 
 
 ************
